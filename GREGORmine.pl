@@ -2,13 +2,16 @@
 # GREGORmine.pl by _CST_ started on 150508 May 8, 2015
 use strict; use warnings;
 
+###!!Note that bedtools IntersectBed can do this much more quickly and efficiently than my script!! I wish I knew about bedtools before I made this...##
+
 #--- Purpose: ----------------------------------------------------------------------------------------------------------------------
 #We would like to use statistical modeling to identify chromatin marks/genomic features that contribute to a given snp or genomic locus being important for platelet development.
 #We know that several snps met genome wide significance in Gieger et al - the question is what features may have contributed to this.
 #This program will mine through GREGOR output data to put together a big tab-delimited spreadsheet that has the following columns:
-# snp(chr:pos)	MinorAlleleFrequency	DistanceToNearestGene	#LDbuddies(with r2>0.8 or whatever was specified in GREGOR)	mark	mark	mark   etc...
+# snp(chr:pos)	MinorAlleleFrequency	DistanceToNearestGene	#LDbuddies(with r2>0.8 as specified in GREGOR)	mark	mark	mark   etc...
 #Note that the "marks" will be either 0 or 1 to say whether that snp was found to overlap with a given mark
 #This data can then be used easily for statistical applications and modeling in R (or anywhere else)
+
 #-------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------------------
 
