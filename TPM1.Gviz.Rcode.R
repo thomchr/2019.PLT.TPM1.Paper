@@ -1,3 +1,5 @@
+#Some of these bedGraph and bigWig files are too big to load onto GitHub. I am happy to send if you have trouble locating them from GEO Datasets
+
 #load package including smaller subitems, as specified in Gviz.pdf
 library(Gviz) 
 
