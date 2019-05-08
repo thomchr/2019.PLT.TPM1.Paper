@@ -4,7 +4,7 @@ z <- read.table(file="150925_AllENCODE_Giegersnps_Mined.txt", header=T)
 Sys.sleep(15)
 library(glmnet)
 Sys.sleep(2)
-sink("160222.GLMnet_Lasso_Rcode_AllExcept259.columns_run.txt")
+sink("160222.GLMnet_Lasso_Rcode_AllExcept259.columns_run.txt") #Note that column 259 was corrupted, hence left out of analysis
 cat("\nnrow: ")
 nrow(z)
 cat("ncol: ")
