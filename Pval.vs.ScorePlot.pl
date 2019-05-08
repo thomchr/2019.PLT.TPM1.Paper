@@ -85,7 +85,7 @@ print OUT2 "rsID\tChrPos\tPval\tScore\n";
 
 foreach my $rsid (@rsid) {
     if (defined $snppval{$rsid} and $snpscore{$linkhash{$rsid}}) {
-    print OUT "$rsid\t$linkhash{$rsid}\t$snppval{$rsid}\t$snpscore{$linkhash{$rsid}}\n"; #I think the problem has to do with genome version for Scored snps
+    print OUT "$rsid\t$linkhash{$rsid}\t$snppval{$rsid}\t$snpscore{$linkhash{$rsid}}\n"; #if problems, could have to do with genome version for Scored snps
     }
 
     else {print OUT2 "$rsid\t$linkhash{$rsid}\t$snppval{$rsid}\t$snpscore{$linkhash{$rsid}}\n";}
