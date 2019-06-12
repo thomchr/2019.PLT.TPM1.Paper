@@ -16,8 +16,11 @@ There are too many chromatin features to replicate this entire workflow from the
 - GREGOR (https://genome.sph.umich.edu/wiki/GREGOR)
 - Glmnet (https://cran.r-project.org/web/packages/glmnet/index.html)
 
-# These scripts have been tested on 
-Linux: 
+# Hardware requirements
+This package should run on a 'normal' desktop computer
+
+# OS requirements
+The package development version is tested on Linux operating systems.
 
 # Installation Guide
 The Data Files branch of this repo has relevant files. Time to install should be <10min. All of the files used to generate data for this paper are publicly available from Geo Datasets (ENCODE, BROAD, Tijssen et al, Paul et al)
