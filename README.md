@@ -1,6 +1,7 @@
 # 2019.PLT.TPM1.Paper
 
-Enclosed are DataFiles and Scripts associated with Thom et al, Machine learning-based identification and cellular validation of Tropomyosin 1 as a genetic inhibitor of hematopoiesis. 
+This is a small DEMO that walks you through the steps we used to create our penalized regression model
+It does not make a very good model, because there aren't many chromatin features!
 
 Please direct questions to thomc@email.chop.edu
 
