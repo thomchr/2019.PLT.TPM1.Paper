@@ -33,7 +33,7 @@ This is not a big enough data set to get a very good model! But it represents th
 
 # To recreate data presented in the paper
 
-#To make a LASSO model using actual data sets and chromatin features overlaps
+#To make a LASSO model using actual data sets and chromatin features overlaps (this takes hours to run)
 	Download Giegersnps_Mined.txt
 	Run LASSO.DEMO.R
 		R CMD BATCH LASSO.DEMO.R
