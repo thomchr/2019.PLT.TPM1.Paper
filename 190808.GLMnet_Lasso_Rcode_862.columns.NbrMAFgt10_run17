@@ -1,0 +1,1955 @@
+
+nrow: [1] 58580
+ncol: [1] 887
+print(cvfit)
+$lambda
+ [1] 6.881796e-03 6.270436e-03 5.713388e-03 5.205826e-03 4.743355e-03
+ [6] 4.321969e-03 3.938017e-03 3.588174e-03 3.269411e-03 2.978965e-03
+[11] 2.714322e-03 2.473189e-03 2.253478e-03 2.053285e-03 1.870877e-03
+[16] 1.704673e-03 1.553235e-03 1.415250e-03 1.289523e-03 1.174965e-03
+[21] 1.070585e-03 9.754768e-04 8.888181e-04 8.098580e-04 7.379124e-04
+[26] 6.723583e-04 6.126279e-04 5.582037e-04 5.086144e-04 4.634305e-04
+[31] 4.222606e-04 3.847482e-04 3.505682e-04 3.194247e-04 2.910479e-04
+[36] 2.651920e-04 2.416331e-04 2.201670e-04 2.006080e-04 1.827865e-04
+[41] 1.665483e-04 1.517526e-04 1.382713e-04 1.259877e-04 1.147953e-04
+[46] 1.045972e-04 9.530506e-05 8.683842e-05 7.912393e-05 7.209478e-05
+[51] 6.569008e-05 5.985435e-05 5.453706e-05 4.969214e-05 4.527762e-05
+[56] 4.125528e-05 3.759028e-05 3.425086e-05 3.120811e-05 2.843567e-05
+[61] 2.590952e-05 2.360779e-05 2.151054e-05 1.959960e-05 1.785843e-05
+[66] 1.627193e-05 1.482638e-05 1.350925e-05 1.230912e-05 1.121561e-05
+[71] 1.021925e-05 9.311399e-06 8.484200e-06 7.730487e-06 7.043732e-06
+[76] 6.417986e-06 5.847830e-06 5.328325e-06 4.854971e-06 4.423669e-06
+[81] 4.030682e-06 3.672608e-06 3.346343e-06 3.049063e-06 2.778193e-06
+[86] 2.531386e-06 2.306505e-06 2.101601e-06 1.914901e-06 1.744786e-06
+[91] 1.589784e-06 1.448552e-06 1.319867e-06 1.202613e-06 1.095777e-06
+[96] 9.984308e-07
+
+$cvm
+ [1] 0.6034214 0.6236741 0.6424044 0.6594457 0.6711026 0.6785172 0.6852091
+ [8] 0.6917955 0.6969952 0.7016863 0.7070198 0.7125202 0.7176831 0.7223833
+[15] 0.7266356 0.7298689 0.7325932 0.7348818 0.7366016 0.7380276 0.7388185
+[22] 0.7393953 0.7402500 0.7407581 0.7409289 0.7410335 0.7405911 0.7392291
+[29] 0.7372496 0.7347897 0.7318933 0.7285007 0.7247559 0.7203504 0.7157536
+[36] 0.7116585 0.7078843 0.7041780 0.7005287 0.6968728 0.6934119 0.6898341
+[43] 0.6857160 0.6810063 0.6759929 0.6714611 0.6674575 0.6638121 0.6604644
+[50] 0.6574193 0.6545073 0.6517352 0.6487568 0.6454619 0.6424003 0.6399801
+[57] 0.6380288 0.6363195 0.6347923 0.6333629 0.6322762 0.6313039 0.6303569
+[64] 0.6293845 0.6284458 0.6275020 0.6264604 0.6253056 0.6240249 0.6226544
+[71] 0.6212690 0.6199848 0.6188487 0.6178970 0.6171067 0.6165102 0.6159912
+[78] 0.6154625 0.6149178 0.6144278 0.6140118 0.6135685 0.6132114 0.6128861
+[85] 0.6125881 0.6123178 0.6120884 0.6118463 0.6116342 0.6113942 0.6112093
+[92] 0.6110391 0.6108951 0.6107420 0.6106124 0.6105056
+
+$cvsd
+ [1] 0.016797957 0.017494301 0.018025523 0.017188684 0.016735331 0.016678789
+ [7] 0.016601999 0.016717267 0.016944414 0.017293752 0.017602552 0.017753317
+[13] 0.017741069 0.017819237 0.017702382 0.017475110 0.017236346 0.017070310
+[19] 0.016882687 0.016646636 0.016404979 0.016163227 0.015759832 0.015286688
+[25] 0.015042718 0.014888375 0.014839341 0.014875125 0.014900878 0.014693461
+[31] 0.014448140 0.014152871 0.013804452 0.013407814 0.012727632 0.012099167
+[37] 0.011694678 0.011466964 0.011317410 0.011372473 0.011424477 0.011571940
+[43] 0.011581570 0.011500942 0.011323853 0.011017222 0.010624499 0.010273323
+[49] 0.009936702 0.009655564 0.009441726 0.009300297 0.009246680 0.009264803
+[55] 0.009300400 0.009355537 0.009429845 0.009491636 0.009579954 0.009678202
+[61] 0.009814043 0.009926879 0.010006648 0.010062624 0.010119833 0.010190024
+[67] 0.010211614 0.010239021 0.010240611 0.010279090 0.010343891 0.010427674
+[73] 0.010519542 0.010594284 0.010655234 0.010682031 0.010711992 0.010715672
+[79] 0.010689883 0.010663525 0.010638120 0.010613737 0.010587470 0.010565714
+[85] 0.010540213 0.010522993 0.010508193 0.010486724 0.010478812 0.010459848
+[91] 0.010446434 0.010433278 0.010437645 0.010439006 0.010429008 0.010425095
+
+$cvup
+ [1] 0.6202194 0.6411684 0.6604299 0.6766344 0.6878380 0.6951960 0.7018111
+ [8] 0.7085128 0.7139396 0.7189800 0.7246224 0.7302735 0.7354242 0.7402025
+[15] 0.7443380 0.7473440 0.7498296 0.7519521 0.7534843 0.7546742 0.7552235
+[22] 0.7555585 0.7560099 0.7560448 0.7559716 0.7559218 0.7554305 0.7541042
+[29] 0.7521505 0.7494832 0.7463415 0.7426535 0.7385604 0.7337582 0.7284812
+[36] 0.7237577 0.7195790 0.7156450 0.7118461 0.7082452 0.7048364 0.7014060
+[43] 0.6972975 0.6925072 0.6873168 0.6824783 0.6780820 0.6740855 0.6704011
+[50] 0.6670749 0.6639490 0.6610355 0.6580035 0.6547267 0.6517007 0.6493356
+[57] 0.6474586 0.6458112 0.6443723 0.6430411 0.6420903 0.6412308 0.6403636
+[64] 0.6394471 0.6385657 0.6376921 0.6366720 0.6355446 0.6342655 0.6329335
+[71] 0.6316129 0.6304125 0.6293682 0.6284913 0.6277619 0.6271922 0.6267032
+[78] 0.6261782 0.6256077 0.6250913 0.6246500 0.6241822 0.6237988 0.6234518
+[85] 0.6231283 0.6228408 0.6225966 0.6223330 0.6221130 0.6218540 0.6216558
+[92] 0.6214723 0.6213327 0.6211810 0.6210414 0.6209307
+
+$cvlo
+ [1] 0.5866235 0.6061798 0.6243789 0.6422570 0.6543673 0.6618384 0.6686071
+ [8] 0.6750783 0.6800508 0.6843925 0.6894173 0.6947669 0.6999421 0.7045640
+[15] 0.7089332 0.7123938 0.7153569 0.7178115 0.7197189 0.7213809 0.7224136
+[22] 0.7232321 0.7244902 0.7254714 0.7258862 0.7261451 0.7257518 0.7243540
+[29] 0.7223487 0.7200962 0.7174452 0.7143478 0.7109515 0.7069426 0.7030259
+[36] 0.6995593 0.6961896 0.6927111 0.6892113 0.6855003 0.6819875 0.6782622
+[43] 0.6741344 0.6695053 0.6646691 0.6604439 0.6568330 0.6535388 0.6505277
+[50] 0.6477637 0.6450656 0.6424349 0.6395102 0.6361971 0.6330999 0.6306246
+[57] 0.6285990 0.6268279 0.6252124 0.6236847 0.6224622 0.6213770 0.6203503
+[64] 0.6193218 0.6183260 0.6173120 0.6162488 0.6150665 0.6137843 0.6123753
+[71] 0.6109251 0.6095571 0.6083292 0.6073027 0.6064515 0.6058282 0.6052792
+[78] 0.6047469 0.6042279 0.6037643 0.6033737 0.6029547 0.6026239 0.6023204
+[85] 0.6020478 0.6017949 0.6015802 0.6013596 0.6011554 0.6009343 0.6007629
+[92] 0.6006058 0.6004574 0.6003030 0.6001834 0.6000805
+
+$nzero
+ s0  s1  s2  s3  s4  s5  s6  s7  s8  s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 
+  3   5   8  10  10  13  15  17  19  22  25  30  34  38  41  43  48  54  65  81 
+s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 
+ 95 108 124 141 163 183 199 214 232 262 285 306 333 364 378 406 434 465 474 487 
+s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 
+501 527 533 551 575 589 605 622 629 654 658 665 686 700 712 720 726 733 728 742 
+s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 
+744 750 755 763 759 769 770 777 791 786 799 796 809 813 810 821 819 830 833 833 
+s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 
+832 825 831 827 833 827 832 823 827 834 833 832 831 834 832 834 
+
+$name
+  auc 
+"AUC" 
+
+$glmnet.fit
+
+Call:  glmnet(x = x, y = y, penalty.factor = pfactor, family = "binomial") 
+
+       Df    %Dev    Lambda
+ [1,]   3 0.01579 6.882e-03
+ [2,]   5 0.02403 6.270e-03
+ [3,]   8 0.03444 5.713e-03
+ [4,]  10 0.04370 5.206e-03
+ [5,]  10 0.05096 4.743e-03
+ [6,]  13 0.05656 4.322e-03
+ [7,]  15 0.06154 3.938e-03
+ [8,]  17 0.06573 3.588e-03
+ [9,]  19 0.06925 3.269e-03
+[10,]  22 0.07250 2.979e-03
+[11,]  25 0.07593 2.714e-03
+[12,]  30 0.07918 2.473e-03
+[13,]  34 0.08234 2.253e-03
+[14,]  38 0.08535 2.053e-03
+[15,]  41 0.08838 1.871e-03
+[16,]  43 0.09126 1.705e-03
+[17,]  48 0.09404 1.553e-03
+[18,]  54 0.09725 1.415e-03
+[19,]  65 0.10090 1.290e-03
+[20,]  81 0.10460 1.175e-03
+[21,]  95 0.10960 1.071e-03
+[22,] 108 0.11540 9.755e-04
+[23,] 124 0.12130 8.888e-04
+[24,] 141 0.12720 8.099e-04
+[25,] 163 0.13310 7.379e-04
+[26,] 183 0.13920 6.724e-04
+[27,] 199 0.14550 6.126e-04
+[28,] 214 0.15130 5.582e-04
+[29,] 232 0.15660 5.086e-04
+[30,] 262 0.16200 4.634e-04
+[31,] 285 0.16790 4.223e-04
+[32,] 306 0.17380 3.847e-04
+[33,] 333 0.17940 3.506e-04
+[34,] 364 0.18510 3.194e-04
+[35,] 378 0.19060 2.910e-04
+[36,] 406 0.19580 2.652e-04
+[37,] 434 0.20090 2.416e-04
+[38,] 465 0.20590 2.202e-04
+[39,] 474 0.21070 2.006e-04
+[40,] 487 0.21500 1.828e-04
+[41,] 501 0.21900 1.665e-04
+[42,] 527 0.22280 1.518e-04
+[43,] 533 0.22630 1.383e-04
+[44,] 551 0.22950 1.260e-04
+[45,] 575 0.23250 1.148e-04
+[46,] 589 0.23530 1.046e-04
+[47,] 605 0.23810 9.531e-05
+[48,] 622 0.24060 8.684e-05
+[49,] 629 0.24290 7.912e-05
+[50,] 654 0.24510 7.209e-05
+[51,] 658 0.24710 6.569e-05
+[52,] 665 0.24880 5.985e-05
+[53,] 686 0.25050 5.454e-05
+[54,] 700 0.25200 4.969e-05
+[55,] 712 0.25340 4.528e-05
+[56,] 720 0.25470 4.126e-05
+[57,] 726 0.25590 3.759e-05
+[58,] 733 0.25690 3.425e-05
+[59,] 728 0.25790 3.121e-05
+[60,] 742 0.25870 2.844e-05
+[61,] 744 0.25950 2.591e-05
+[62,] 750 0.26010 2.361e-05
+[63,] 755 0.26070 2.151e-05
+[64,] 763 0.26130 1.960e-05
+[65,] 759 0.26180 1.786e-05
+[66,] 769 0.26220 1.627e-05
+[67,] 770 0.26260 1.483e-05
+[68,] 777 0.26300 1.351e-05
+[69,] 791 0.26330 1.231e-05
+[70,] 786 0.26350 1.122e-05
+[71,] 799 0.26380 1.022e-05
+[72,] 796 0.26400 9.311e-06
+[73,] 809 0.26410 8.484e-06
+[74,] 813 0.26430 7.730e-06
+[75,] 810 0.26440 7.044e-06
+[76,] 821 0.26460 6.418e-06
+[77,] 819 0.26470 5.848e-06
+[78,] 830 0.26480 5.328e-06
+[79,] 833 0.26490 4.855e-06
+[80,] 833 0.26500 4.424e-06
+[81,] 832 0.26500 4.031e-06
+[82,] 825 0.26510 3.673e-06
+[83,] 831 0.26510 3.346e-06
+[84,] 827 0.26520 3.049e-06
+[85,] 833 0.26520 2.778e-06
+[86,] 827 0.26530 2.531e-06
+[87,] 832 0.26530 2.307e-06
+[88,] 823 0.26530 2.102e-06
+[89,] 827 0.26530 1.915e-06
+[90,] 834 0.26530 1.745e-06
+[91,] 833 0.26540 1.590e-06
+[92,] 832 0.26540 1.449e-06
+[93,] 831 0.26540 1.320e-06
+[94,] 834 0.26540 1.203e-06
+[95,] 832 0.26540 1.096e-06
+[96,] 834 0.26540 9.984e-07
+
+$lambda.min
+[1] 0.0006723583
+
+$lambda.1se
+[1] 0.001870877
+
+attr(,"class")
+[1] "cv.glmnet"
+coef(cvfit, s=lambda.1se)
+864 x 1 sparse Matrix of class "dgCMatrix"
+                                                                                                1
+(Intercept)                                                                         -4.552900e+00
+Dist                                                                                 5.402660e-06
+LDBuddies                                                                            2.626502e-01
+MAF                                                                                 -2.900179e+00
+MACS_FLI1_vs_rIgG_hg19_short._short.bed                                              3.733630e-01
+MACS_GATA1_vs_rIgG_hg19_short._short.bed                                             .           
+MACS_GATA2_vs_rIgG_hg19_short._short.bed                                             .           
+MACS_RUNX1_vs_rIgG_hg19_short._short.bed                                             3.856415e-01
+MACS_SCL_vs_rIgG_hg19_short._short.bed                                               8.182809e-01
+wgEncodeAwgTfbsBroadDnd41CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadDnd41Ezh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadGm12878CtcfUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsBroadGm12878Ezh239875UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsBroadH1hescChd1a301218aUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsBroadH1hescCtcfUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsBroadH1hescEzh239875UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsBroadH1hescJarid1aab26049UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsBroadH1hescRbbp5a300109aUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsBroadHelas3CtcfUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsBroadHelas3Ezh239875UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsBroadHelas3Pol2bUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsBroadHepg2CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadHepg2Ezh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadHmecCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadHmecEzh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadHsmmCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadHsmmEzh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadHsmmtCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadHsmmtEzh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadHuvecCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadHuvecEzh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadHuvecPol2bUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsBroadK562Chd1a301218aUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsBroadK562CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadK562Ezh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadK562Hdac1sc6298UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsBroadK562Hdac2a300705aUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsBroadK562Hdac6a301341aUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsBroadK562P300UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadK562Phf8a301772aUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsBroadK562Plu1UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadK562Pol2bUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadK562Rbbp5a300109aUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsBroadK562Sap3039731UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadNhaCtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsBroadNhaEzh239875UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsBroadNhdfadCtcfUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsBroadNhdfadEzh239875UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsBroadNhekCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadNhekEzh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadNhekPol2bUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadNhlfCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadNhlfEzh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadOsteoblCtcfUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibA549Atf3V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Bcl3V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Creb1sc240V0416102Dex100nmUniPk.narrowPeak_short._short.bed   .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xDex100nmUniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xEtoh02UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibA549Elf1V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Ets1V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Fosl2V0422111Etoh02UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibA549Foxa1V0416102Dex100nmUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibA549GabpV0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex500pmUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex50nmUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex5nmUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibA549GrPcr2xDex100nmUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549NrsfV0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549P300V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xDex100nmUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xEtoh02UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549Sin3ak20V0422111Etoh02UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibA549Six5V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Taf1V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Tcf12V0422111Etoh02UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xDex100nmUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xEtoh02UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549Usf1V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Yy1cV0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Zbtb33V0422111Etoh02UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibEcc1CtcfcV0416102Dm002p1hUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibEcc1EraaV0416102Bpa1hUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Est10nm1hUniPk.narrowPeak_short._short.bed    .           
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Gen1hUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibEcc1Foxa1sc6553V0416102Dm002p1hUniPk.narrowPeak_short._short.bed  .           
+wgEncodeAwgTfbsHaibEcc1GrV0416102Dex100nmUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibEcc1Pol2V0416102Dm002p1hUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibGm12878Atf2sc81188V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878Atf3Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878BatfPcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Bcl11aPcr1xUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibGm12878Bcl3V0416101UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12878Bclaf101388V0416101UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878Cebpbsc150V0422111UniPk.narrowPeak_short._short.bed        1.855925e-01
+wgEncodeAwgTfbsHaibGm12878Ebf1sc137065Pcr1xUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibGm12878Egr1Pcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Elf1sc631V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibGm12878Ets1Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Foxm1sc502V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibGm12878GabpPcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Irf4sc6059Pcr1xUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12878Mef2aPcr1xUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibGm12878Mef2csc13268V0416101UniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsHaibGm12878Mta3sc81325V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878Nfatc1sc17834V0422111UniPk.narrowPeak_short._short.bed     .           
+wgEncodeAwgTfbsHaibGm12878Nficsc81335V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878NrsfPcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878P300Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Pax5c20Pcr1xUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12878Pax5n19Pcr1xUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12878Pbx3Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Pmlsc71910V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibGm12878Pol24h8Pcr1xUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12878Pol2Pcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Pou2f2Pcr1xUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibGm12878Pu1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibGm12878Rad21V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibGm12878Runx3sc101553V0422111UniPk.narrowPeak_short._short.bed     1.512121e-01
+wgEncodeAwgTfbsHaibGm12878RxraPcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Six5Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Sp1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibGm12878SrfPcr2xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibGm12878Stat5asc74442V0422111UniPk.narrowPeak_short._short.bed     .           
+wgEncodeAwgTfbsHaibGm12878Taf1Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Tcf12Pcr1xUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibGm12878Tcf3Pcr1xUniPk.narrowPeak_short._short.bed                 3.108357e-01
+wgEncodeAwgTfbsHaibGm12878Usf1Pcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Yy1sc281Pcr1xUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibGm12878Zbtb33Pcr1xUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibGm12878Zeb1sc25388V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12891Pax5c20V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12891Pol24h8Pcr1xUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12891Pol2Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12891Pou2f2Pcr1xUniPk.narrowPeak_short._short.bed               9.479250e-03
+wgEncodeAwgTfbsHaibGm12891Pu1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibGm12891Taf1Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12891Yy1sc281V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibGm12892Pax5c20V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12892Pol24h8V0416102UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12892Pol2V0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12892Taf1V0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12892Yy1V0416101UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescAtf2sc81188V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibH1hescAtf3V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescBcl11aPcr1xUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibH1hescCtcfsc5916V0416102UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibH1hescEgr1V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescFosl1sc183V0416102UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibH1hescGabpPcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibH1hescHdac2sc6296V0416102UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibH1hescJundV0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescNanogsc33759V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibH1hescNrsfV0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescP300V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescPol24h8V0416102UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibH1hescPol2V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescPou5f1sc9081V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibH1hescRad21V0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibH1hescRxraV0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescSin3ak20Pcr1xUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibH1hescSix5Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibH1hescSp1Pcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibH1hescSp2V0422111UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibH1hescSp4v20V0422111UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibH1hescSrfPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibH1hescTaf1V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescTaf7sc101167V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibH1hescTcf12Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibH1hescTead4sc101184V0422111UniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsHaibH1hescUsf1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibH1hescYy1sc281V0416102UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibHct116Pol24h8V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibHct116Yy1sc281V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibHct116Zbtb33V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHelas3GabpPcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHelas3NrsfPcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHelas3Pol2Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHelas3Taf1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHepg2Atf3V0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibHepg2Bhlhe40V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHepg2Cebpbsc150V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibHepg2Cebpdsc636V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibHepg2Ctcfsc5916V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibHepg2Elf1sc631V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibHepg2Fosl2V0416101UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibHepg2Foxa1sc101058V0416101UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibHepg2Foxa1sc6553V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2Foxa2sc6554V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2GabpPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Hdac2sc6296V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2Hnf4asc8987V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2Hnf4gsc6558V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2JundPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Mbd4sc271530V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibHepg2Mybl2sc81192V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibHepg2Nficsc81335V0422111UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2NrsfPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2NrsfV0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibHepg2P300V0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibHepg2Pol24h8V0416102UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHepg2Pol2Pcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Rad21V0416101UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibHepg2RxraPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Sin3ak20Pcr1xUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibHepg2Sp1Pcr1xUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsHaibHepg2Sp2V0422111UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibHepg2SrfV0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibHepg2Taf1Pcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Tcf12Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHepg2Tead4sc101184V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibHepg2Usf1Pcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Yy1sc281V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibHepg2Zbtb33Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibHepg2Zbtb7aV0416101UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibHuvecPol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHuvecPol2Pcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibK562Atf3V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Bcl3Pcr1xUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsHaibK562Bclaf101388Pcr1xUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibK562Cbx3sc101004V0422111UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibK562Cebpbsc150V0422111UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibK562CtcfcPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibK562Ctcflsc98982V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibK562E2f6V0416102UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Egr1V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Elf1sc631V0416102UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibK562Ets1V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Fosl1sc183V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibK562GabpV0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Gata2sc267Pcr1xUniPk.narrowPeak_short._short.bed              7.275155e-01
+wgEncodeAwgTfbsHaibK562Hdac2sc6296V0416102UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibK562MaxV0416102UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibK562Mef2aV0416101UniPk.narrowPeak_short._short.bed                1.173114e-01
+wgEncodeAwgTfbsHaibK562Nr2f2sc271940V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibK562NrsfV0416102UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Pmlsc71910V0422111UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibK562Pol24h8V0416101UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibK562Pol2V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Pu1Pcr1xUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibK562Rad21V0416102UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibK562Sin3ak20V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibK562Six5Pcr1xUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsHaibK562Sp1Pcr1xUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibK562Sp2sc643V0416102UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibK562SrfV0416101UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibK562Stat5asc74442V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibK562Taf1V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Taf7sc101167V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibK562Tead4sc101184V0422111UniPk.narrowPeak_short._short.bed        2.141167e-01
+wgEncodeAwgTfbsHaibK562Thap1sc98174V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibK562Trim28sc81411V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibK562Usf1V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Yy1V0416101UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibK562Yy1V0416102UniPk.narrowPeak_short._short.bed                 -1.108878e-01
+wgEncodeAwgTfbsHaibK562Zbtb33Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibK562Zbtb7asc34508V0416101UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibPanc1NrsfPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibPanc1Pol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibPanc1Sin3ak20V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibPfsk1Foxp2Pcr2xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibPfsk1NrsfPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibPfsk1Sin3ak20V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibPfsk1Taf1V0416101UniPk.narrowPeak_short._short.bed               -1.801793e-02
+wgEncodeAwgTfbsHaibSknmcFoxp2Pcr2xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibSknmcPol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibSknshNrsfPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibSknshNrsfV0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibSknshPol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibSknshraCtcfV0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibSknshraP300V0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibSknshraRad21V0416102UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibSknshraUsf1sc8983V0416102UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibSknshraYy1sc281V0416102UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibSknshSin3ak20V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibSknshTaf1V0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibT47dCtcfsc5916V0416102Dm002p1hUniPk.narrowPeak_short._short.bed   .           
+wgEncodeAwgTfbsHaibT47dEraaV0416102Bpa1hUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibT47dEralphaaPcr2xGen1hUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibT47dEralphaaV0416102Est10nm1hUniPk.narrowPeak_short._short.bed    .           
+wgEncodeAwgTfbsHaibT47dFoxa1sc6553V0416102Dm002p1hUniPk.narrowPeak_short._short.bed  .           
+wgEncodeAwgTfbsHaibT47dGata3sc268V0416102Dm002p1hUniPk.narrowPeak_short._short.bed   .           
+wgEncodeAwgTfbsHaibT47dP300V0416102Dm002p1hUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibU87NrsfPcr2xUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibU87Pol24h8V0416101UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhA549Bhlhe40IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhA549CebpbIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhA549MaxIggrabUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhA549Pol2s2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhA549Rad21IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhGm08714Znf274UcdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhGm10847NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm10847Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Bhlhe40cIggmusUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878Brca1a300IggmusUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhGm12878CfosUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12878Chd1a301218aIggmusUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhGm12878Chd2ab68301IggmusUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhGm12878Corestsc30189IggmusUniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsSydhGm12878Ctcfsc15914c20UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878E2f4IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Ebf1sc137065UniPk.narrowPeak_short._short.bed              2.568628e-01
+wgEncodeAwgTfbsSydhGm12878Elk112771IggmusUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhGm12878Ikzf1iknuclaUniPk.narrowPeak_short._short.bed              1.561410e-01
+wgEncodeAwgTfbsSydhGm12878JundUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12878MaxIggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhGm12878Mazab85725IggmusUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhGm12878Mxi1IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Nfe2sc22827UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhGm12878NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878NfyaIggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878NfybIggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Nrf1IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878P300bUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhGm12878P300IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Pol2s2IggmusUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhGm12878Pol2UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12878Pol3UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12878Rad21IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhGm12878Rfx5200401194IggmusUniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsSydhGm12878Sin3anb6001263IggmusUniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsSydhGm12878Smc3ab9263IggmusUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhGm12878Stat1UniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhGm12878Stat3IggmusUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhGm12878Tblr1ab24550IggmusUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhGm12878TbpIggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhGm12878Tr4UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhGm12878Usf2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878WhipIggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Yy1UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhGm12878Znf143166181apUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878Znf274UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhGm12878Zzz3UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12891NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12891Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12892NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12892Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm15510NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm15510Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm18505NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm18505Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm18526NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm18526Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm18951NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm18951Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm19099NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm19099Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm19193NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm19193Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescBach1sc14700IggrabUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhH1hescBrca1IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescCebpbIggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescChd1a301218aIggrabUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhH1hescChd2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescCjunIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescCmycIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescCtbp2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhH1hescGtf2f1IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhH1hescJundIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescMafkIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescMaxUcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhH1hescMxi1IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescNrf1IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescRad21IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescRfx5200401194IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhH1hescSin3anb6001263IggrabUniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsSydhH1hescSuz12UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhH1hescTbpIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhH1hescUsf2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescZnf143IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHct116Pol2UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHct116Tcf7l2UcdUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHek293Elk4UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHek293Kap1UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHek293Pol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHek293Tcf7l2UcdUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHek293tZnf263UcdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3Ap2alphaUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHelas3Ap2gammaUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHelas3Baf155IggmusUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHelas3Baf170IggmusUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHelas3Bdp1UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Brca1a300IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHelas3Brf1UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Brf2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Brg1IggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3CebpbIggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3CfosUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Chd2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3CjunIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3CmycUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Corestsc30189IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHelas3E2f1UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3E2f4UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3E2f6UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Elk112771IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHelas3Elk4UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHelas3Gtf2f1ab28179IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHelas3Hae2f1UniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhHelas3Ini1IggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3Irf3IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3JundIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3MafkIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3MaxIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHelas3Mazab85725IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHelas3Mxi1af4185IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHelas3NfyaIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3NfybIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3Nrf1IggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3P300sc584sc584IggrabUniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsSydhHelas3Pol2s2IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHelas3Pol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Prdm19115IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHelas3Rad21IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3Rfx5200401194IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHelas3Rpc155UniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhHelas3Smc3ab9263IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHelas3Spt20UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhHelas3Stat1Ifng30UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3Stat3IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3TbpIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHelas3Tcf7l2c9b92565UcdUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhHelas3Tcf7l2UcdUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHelas3Tf3c110UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHelas3Tr4UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhHelas3Usf2IggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3Zkscan1hpa006672IggrabUniPk.narrowPeak_short._short.bed     .           
+wgEncodeAwgTfbsSydhHelas3Znf143IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHelas3Znf274UcdUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHelas3Zzz3UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHepg2Arid3anb100279IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHepg2Bhlhe40cIggrabUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhHepg2Brca1a300IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhHepg2CebpbForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2CebpbIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Chd2ab68301IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHepg2CjunIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2Corestsc30189IggrabUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhHepg2ErraForsklnUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Grp20ForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2Hnf4aForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2Hsf1ForsklnUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Irf3IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2JundIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2Maffm8194IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhHepg2Mafkab50322IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHepg2Mafksc477IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhHepg2MaxIggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHepg2Mazab85725IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHepg2Mxi1UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhHepg2Nrf1IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2P300sc582IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhHepg2Pgc1aForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2Pol2ForsklnUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Pol2IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2Pol2s2IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2Rad21IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Rfx5200401194IggrabUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhHepg2Smc3ab9263IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHepg2Srebp1InslnUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2TbpIggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHepg2Tcf7l2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHepg2Tr4UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhHepg2Usf2IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2Znf274UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHuvecCfosUcdUniPk.narrowPeak_short._short.bed                     6.003283e-02
+wgEncodeAwgTfbsSydhHuvecCjunUniPk.narrowPeak_short._short.bed                        2.236622e-01
+wgEncodeAwgTfbsSydhHuvecGata2UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHuvecMaxUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhHuvecPol2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhImr90CebpbIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhImr90CtcfbIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhImr90MafkIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhImr90Pol2IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhImr90Rad21IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Arid3asc8821IggrabUniPk.narrowPeak_short._short.bed           2.026533e-01
+wgEncodeAwgTfbsSydhK562Atf106325UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Atf3UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Bach1sc14700IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhK562Bdp1UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Bhlhe40nb100IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhK562Brf1UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Brf2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Brg1IggmusUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Ccnt2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562CebpbIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562CfosUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Chd2ab68301IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhK562CjunIfna30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CjunIfna6hUniPk.narrowPeak_short._short.bed                   6.246703e-02
+wgEncodeAwgTfbsSydhK562CjunIfng30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CjunIfng6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CjunUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562CmycIfna30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIfna6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Corestab24166IggrabUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhK562Corestsc30189IggrabUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhK562CtcfbIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562E2f4UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562E2f6UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562Elk112771IggrabUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhK562Gata1UcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhK562Gata2UcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhK562Gtf2bUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Gtf2f1ab28179IggrabUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhK562Hmgn3UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Ini1IggmusUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifna30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifna6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562JundIggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Kap1UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562MaffIggrabUniPk.narrowPeak_short._short.bed                   1.144361e-01
+wgEncodeAwgTfbsSydhK562Mafkab50322IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhK562MaxIggrabUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Mazab85725IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhK562Mxi1af4185IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhK562NelfeUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Nfe2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562NfyaUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562NfybUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Nrf1IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562P300IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifng30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifng6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2IggmusUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2s2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Pol2s2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhK562Pol2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Pol3UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Rad21UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Rfx5IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Rpc155UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhK562Setdb1MnasedUcdUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhK562Setdb1UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Sirt6UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Smc3ab9263IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhK562Stat1Ifna30UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifna6hUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng30UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng6hUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat2Ifna30UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat2Ifna6hUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Tal1sc12984IggmusUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhK562Tblr1ab24550IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhK562Tblr1nb600270IggrabUniPk.narrowPeak_short._short.bed          6.706164e-02
+wgEncodeAwgTfbsSydhK562TbpIggmusUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Tf3c110UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562Tr4UcdUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhK562Ubfsc13125IggmusUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhK562Ubtfsab1404509IggmusUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhK562Usf2IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Yy1UcdUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhK562Znf143IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Znf263UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Znf274m01UcdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Znf274UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhMcf10aesCfosEtoh01HvdUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam112hHvdUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam14hHvdUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTamHvdUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhMcf10aesCmycEtoh01HvdUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhMcf10aesCmycTam14hHvdUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhMcf10aesE2f4TamHvdUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhMcf10aesPol2Etoh01UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhMcf10aesPol2TamUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01bUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01cUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Tam112hHvdUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhMcf10aesStat3TamUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhMcf7Gata3sc269UcdUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhMcf7Gata3UcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhMcf7Hae2f1UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhMcf7Tcf7l2UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhMcf7Znf217UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhNb4CmycUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsSydhNb4MaxUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsSydhNb4Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsSydhNt2d1Suz12UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhNt2d1Yy1UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhNt2d1Znf274UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhPanc1Tcf7l2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhPbdefetalGata1UcdUniPk.narrowPeak_short._short.bed                9.981076e-01
+wgEncodeAwgTfbsSydhPbdeGata1UcdUniPk.narrowPeak_short._short.bed                     8.890541e-02
+wgEncodeAwgTfbsSydhPbdePol2UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhRajiPol2UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhShsy5yGata2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhShsy5yGata3sc269sc269UcdUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhU2osKap1UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhU2osSetdb1UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsUchicagoK562EfosUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsUchicagoK562Egata2UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsUchicagoK562Ehdac8UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsUchicagoK562EjunbUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsUchicagoK562EjundUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsUtaA549CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaA549Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaFibroblCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGlioblaCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGlioblaPol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12878CmycUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12878CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12878Pol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12891CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12892CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm19238CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm19239CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm19240CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaH1hescCmycUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaH1hescCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaH1hescPol2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaHelas3CmycUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaHelas3CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaHelas3Pol2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaHepg2CmycUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHepg2CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHepg2Pol2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHuvecCmycUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHuvecCtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHuvecPol2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaK562CmycUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaK562CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaK562Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaMcf7CmycEstroUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsUtaMcf7CmycSerumstimUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CmycSerumstvdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CmycVehUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaMcf7CtcfEstroUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstimUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstvdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaMcf7CtcfVehUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstimUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstvdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaNhekCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaProgfibCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaProgfibPol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUwA549CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwAg04449CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg04450CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg09309CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg09319CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg10803CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAoafCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwBe2cCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwBjCtcfUniPk.narrowPeak_short._short.bed                             .           
+wgEncodeAwgTfbsUwCaco2CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwGm06990CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12801CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12864CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12865CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12872CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12873CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12874CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12875CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12878CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwHacCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHaspCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHbmecCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHcfaaCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHcmCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHcpeCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHct116CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHeeCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHek293CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHelas3CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHepg2CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHffCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHffmycCtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHl60CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHmecCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHmfCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHpafCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHpfCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHreCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHrpeCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHuvecCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHvmfCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwK562CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwMcf7CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwNb4CtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwNhdfneoCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwNhekCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwNhlfCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwRptecCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwSaecCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwSknshraCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwWerirb1CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwWi38CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeBroadHistoneGm12878CtcfStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneGm12878H2azStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneGm12878H3k04me1StdPkV2.broadPeak_short._short.bed                2.566493e-01
+wgEncodeBroadHistoneGm12878H3k04me3StdPkV2.broadPeak_short._short.bed                .           
+wgEncodeBroadHistoneGm12878H3k27acStdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H3k27me3StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneGm12878H3k27me3StdPkV2.broadPeak_short._short.bed                .           
+wgEncodeBroadHistoneGm12878H3k36me3StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneGm12878H3k4me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H3k4me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H3k79me2StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneGm12878H3k9acStdPk.broadPeak_short._short.bed                    1.206668e-03
+wgEncodeBroadHistoneGm12878H3k9me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H4k20me1StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneH1hescChd1a301218aStdPk.broadPeak_short._short.bed               .           
+wgEncodeBroadHistoneH1hescCtcfStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneH1hescH2azStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneH1hescH3k09me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescH3k27acStdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k27me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescH3k36me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescH3k4me1StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k4me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k4me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k79me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescH3k9acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneH1hescH4k20me1StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescJarid1aab26049StdPk.broadPeak_short._short.bed             .           
+wgEncodeBroadHistoneH1hescRbbp5a300109aStdPk.broadPeak_short._short.bed              .           
+wgEncodeBroadHistoneHelas3CtcfStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneHelas3H3k04me1StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k27acStdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHelas3H3k27me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k36me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k4me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHelas3H3k4me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHelas3H3k79me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k9acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHelas3H4k20me1StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3Pol2bStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHepg2CtcfStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHepg2H2azStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHepg2H3k04me1StdPk.broadPeak_short._short.bed                    2.703434e-02
+wgEncodeBroadHistoneHepg2H3k27acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHepg2H3k27me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHepg2H3k36me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHepg2H3k4me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHepg2H3k4me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHepg2H3k79me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHepg2H3k9acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHepg2H4k20me1StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHmecCtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneHmecH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHmecH3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHmecH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHmecH3k4me1StdPk.broadPeak_short._short.bed                      5.213842e-02
+wgEncodeBroadHistoneHmecH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHmecH3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHmecH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneHmecH4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmCtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneHsmmH2azStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneHsmmH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmH3k4me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k79me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneHsmmH3k9me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmtCtcfStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHsmmtH2azStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHsmmtH3k27acStdPk.broadPeak_short._short.bed                     6.639916e-02
+wgEncodeBroadHistoneHsmmtH3k36me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHsmmtH3k4me1StdPk.broadPeak_short._short.bed                     4.772838e-02
+wgEncodeBroadHistoneHsmmtH3k4me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmtH3k4me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmtH3k79me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHsmmtH3k9acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmtH4k20me1StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecCtcfStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHuvecH3k27acStdPk.broadPeak_short._short.bed                     4.499505e-02
+wgEncodeBroadHistoneHuvecH3k27me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecH3k36me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecH3k4me1StdPk.broadPeak_short._short.bed                     7.931374e-02
+wgEncodeBroadHistoneHuvecH3k4me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHuvecH3k4me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHuvecH3k9acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHuvecH3k9me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHuvecH4k20me1StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecPol2bStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneK562Chd1a301218aStdPk.broadPeak_short._short.bed                 .           
+wgEncodeBroadHistoneK562CtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562Ezh239875StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneK562H2azStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562H3k27acStdPk.broadPeak_short._short.bed                      2.809078e-02
+wgEncodeBroadHistoneK562H3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneK562H3k36me3StdPk.broadPeak_short._short.bed                     5.619954e-02
+wgEncodeBroadHistoneK562H3k4me1StdPk.broadPeak_short._short.bed                      3.681666e-01
+wgEncodeBroadHistoneK562H3k4me2StdPk.broadPeak_short._short.bed                      2.458106e-01
+wgEncodeBroadHistoneK562H3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneK562H3k79me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneK562H3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneK562H3k9me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneK562H3k9me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneK562H4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneK562Hdac1sc6298StdPk.broadPeak_short._short.bed                  3.140985e-02
+wgEncodeBroadHistoneK562Hdac2a300705aStdPk.broadPeak_short._short.bed                1.017355e-01
+wgEncodeBroadHistoneK562P300StdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562Phf8a301772aStdPk.broadPeak_short._short.bed                 .           
+wgEncodeBroadHistoneK562Plu1StdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562Pol2bStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneK562Rbbp5a300109aStdPk.broadPeak_short._short.bed                1.213890e-01
+wgEncodeBroadHistoneK562Sap3039731StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneNhaCtcfStdPk.broadPeak_short._short.bed                          .           
+wgEncodeBroadHistoneNhaH3k27acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhaH3k27me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhaH3k36me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhaH3k4me1StdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhaH3k4me3StdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhdfadCtcfStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhdfadH3k27acStdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneNhdfadH3k27me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneNhdfadH3k36me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneNhdfadH3k4me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneNhdfadH3k4me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneNhdfadH3k9acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekCtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneNhekH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekH3k4me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhekH3k9me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekPol2bStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneNhlfCtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneNhlfH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhlfH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhlfH3k4me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhlfH4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneOsteoblCtcfStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneOsteoblH2azStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneOsteoblH3k27acStdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneOsteoblH3k36me3StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneOsteoblH3k4me1StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneOsteoblH3k4me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneOsteoblH3k9me3StdPk.broadPeak_short._short.bed                  -2.440411e-01
+wgEncodeBroadHmmGm12878HMM._short.bed                                                .           
+wgEncodeBroadHmmH1hescHMM._short.bed                                                 .           
+wgEncodeBroadHmmHepg2HMM._short.bed                                                  .           
+wgEncodeBroadHmmHmecHMM._short.bed                                                   .           
+wgEncodeBroadHmmHsmmHMM._short.bed                                                   .           
+wgEncodeBroadHmmHuvecHMM._short.bed                                                  .           
+wgEncodeBroadHmmK562HMM._short.bed                                                   .           
+wgEncodeBroadHmmNhekHMM._short.bed                                                   .           
+wgEncodeBroadHmmNhlfHMM._short.bed                                                   .           
+coef(cvfit, s=lambda.min)
+864 x 1 sparse Matrix of class "dgCMatrix"
+                                                                                                1
+(Intercept)                                                                         -4.884460e+00
+Dist                                                                                 6.391999e-06
+LDBuddies                                                                            2.773224e-01
+MAF                                                                                 -2.849559e+00
+MACS_FLI1_vs_rIgG_hg19_short._short.bed                                              5.221570e-01
+MACS_GATA1_vs_rIgG_hg19_short._short.bed                                             9.607934e-02
+MACS_GATA2_vs_rIgG_hg19_short._short.bed                                             6.375407e-02
+MACS_RUNX1_vs_rIgG_hg19_short._short.bed                                             3.978395e-01
+MACS_SCL_vs_rIgG_hg19_short._short.bed                                               8.537705e-01
+wgEncodeAwgTfbsBroadDnd41CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadDnd41Ezh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadGm12878CtcfUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsBroadGm12878Ezh239875UniPk.narrowPeak_short._short.bed                5.674130e-01
+wgEncodeAwgTfbsBroadH1hescChd1a301218aUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsBroadH1hescCtcfUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsBroadH1hescEzh239875UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsBroadH1hescJarid1aab26049UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsBroadH1hescRbbp5a300109aUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsBroadHelas3CtcfUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsBroadHelas3Ezh239875UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsBroadHelas3Pol2bUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsBroadHepg2CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadHepg2Ezh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadHmecCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadHmecEzh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadHsmmCtcfUniPk.narrowPeak_short._short.bed                        1.745568e-01
+wgEncodeAwgTfbsBroadHsmmEzh239875UniPk.narrowPeak_short._short.bed                   9.925913e-01
+wgEncodeAwgTfbsBroadHsmmtCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadHsmmtEzh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadHuvecCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadHuvecEzh239875UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadHuvecPol2bUniPk.narrowPeak_short._short.bed                     -3.872497e-01
+wgEncodeAwgTfbsBroadK562Chd1a301218aUniPk.narrowPeak_short._short.bed               -3.612888e-01
+wgEncodeAwgTfbsBroadK562CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadK562Ezh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadK562Hdac1sc6298UniPk.narrowPeak_short._short.bed                -3.140726e-01
+wgEncodeAwgTfbsBroadK562Hdac2a300705aUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsBroadK562Hdac6a301341aUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsBroadK562P300UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadK562Phf8a301772aUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsBroadK562Plu1UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadK562Pol2bUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadK562Rbbp5a300109aUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsBroadK562Sap3039731UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsBroadNhaCtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsBroadNhaEzh239875UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsBroadNhdfadCtcfUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsBroadNhdfadEzh239875UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsBroadNhekCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadNhekEzh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadNhekPol2bUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsBroadNhlfCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsBroadNhlfEzh239875UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsBroadOsteoblCtcfUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibA549Atf3V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Bcl3V0422111Etoh02UniPk.narrowPeak_short._short.bed           4.744292e-03
+wgEncodeAwgTfbsHaibA549Creb1sc240V0416102Dex100nmUniPk.narrowPeak_short._short.bed   .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xDex100nmUniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xEtoh02UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibA549Elf1V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Ets1V0422111Etoh02UniPk.narrowPeak_short._short.bed          -7.029297e-01
+wgEncodeAwgTfbsHaibA549Fosl2V0422111Etoh02UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibA549Foxa1V0416102Dex100nmUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibA549GabpV0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex500pmUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex50nmUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex5nmUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibA549GrPcr2xDex100nmUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549NrsfV0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549P300V0422111Etoh02UniPk.narrowPeak_short._short.bed           7.467110e-02
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xDex100nmUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xEtoh02UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549Sin3ak20V0422111Etoh02UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibA549Six5V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Taf1V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Tcf12V0422111Etoh02UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xDex100nmUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xEtoh02UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibA549Usf1V0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Yy1cV0422111Etoh02UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibA549Zbtb33V0422111Etoh02UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibEcc1CtcfcV0416102Dm002p1hUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibEcc1EraaV0416102Bpa1hUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Est10nm1hUniPk.narrowPeak_short._short.bed   -2.287068e-01
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Gen1hUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibEcc1Foxa1sc6553V0416102Dm002p1hUniPk.narrowPeak_short._short.bed  .           
+wgEncodeAwgTfbsHaibEcc1GrV0416102Dex100nmUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibEcc1Pol2V0416102Dm002p1hUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibGm12878Atf2sc81188V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878Atf3Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878BatfPcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Bcl11aPcr1xUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibGm12878Bcl3V0416101UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12878Bclaf101388V0416101UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878Cebpbsc150V0422111UniPk.narrowPeak_short._short.bed        1.683115e-01
+wgEncodeAwgTfbsHaibGm12878Ebf1sc137065Pcr1xUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibGm12878Egr1Pcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Elf1sc631V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibGm12878Ets1Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Foxm1sc502V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibGm12878GabpPcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Irf4sc6059Pcr1xUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12878Mef2aPcr1xUniPk.narrowPeak_short._short.bed               -4.822939e-02
+wgEncodeAwgTfbsHaibGm12878Mef2csc13268V0416101UniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsHaibGm12878Mta3sc81325V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878Nfatc1sc17834V0422111UniPk.narrowPeak_short._short.bed     5.567401e-02
+wgEncodeAwgTfbsHaibGm12878Nficsc81335V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12878NrsfPcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878P300Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Pax5c20Pcr1xUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12878Pax5n19Pcr1xUniPk.narrowPeak_short._short.bed              1.289566e-01
+wgEncodeAwgTfbsHaibGm12878Pbx3Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Pmlsc71910V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibGm12878Pol24h8Pcr1xUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12878Pol2Pcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Pou2f2Pcr1xUniPk.narrowPeak_short._short.bed               1.439060e-01
+wgEncodeAwgTfbsHaibGm12878Pu1Pcr1xUniPk.narrowPeak_short._short.bed                 -1.234273e-01
+wgEncodeAwgTfbsHaibGm12878Rad21V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibGm12878Runx3sc101553V0422111UniPk.narrowPeak_short._short.bed     1.291859e-01
+wgEncodeAwgTfbsHaibGm12878RxraPcr1xUniPk.narrowPeak_short._short.bed                -5.844911e-01
+wgEncodeAwgTfbsHaibGm12878Six5Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Sp1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibGm12878SrfPcr2xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibGm12878Stat5asc74442V0422111UniPk.narrowPeak_short._short.bed     9.750643e-02
+wgEncodeAwgTfbsHaibGm12878Taf1Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Tcf12Pcr1xUniPk.narrowPeak_short._short.bed                1.831606e-01
+wgEncodeAwgTfbsHaibGm12878Tcf3Pcr1xUniPk.narrowPeak_short._short.bed                 5.557187e-01
+wgEncodeAwgTfbsHaibGm12878Usf1Pcr2xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12878Yy1sc281Pcr1xUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibGm12878Zbtb33Pcr1xUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibGm12878Zeb1sc25388V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibGm12891Pax5c20V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12891Pol24h8Pcr1xUniPk.narrowPeak_short._short.bed              6.162158e-01
+wgEncodeAwgTfbsHaibGm12891Pol2Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12891Pou2f2Pcr1xUniPk.narrowPeak_short._short.bed               5.418923e-01
+wgEncodeAwgTfbsHaibGm12891Pu1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibGm12891Taf1Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibGm12891Yy1sc281V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibGm12892Pax5c20V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12892Pol24h8V0416102UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibGm12892Pol2V0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibGm12892Taf1V0416102UniPk.narrowPeak_short._short.bed             -3.789501e-02
+wgEncodeAwgTfbsHaibGm12892Yy1V0416101UniPk.narrowPeak_short._short.bed               6.081202e-01
+wgEncodeAwgTfbsHaibH1hescAtf2sc81188V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibH1hescAtf3V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescBcl11aPcr1xUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibH1hescCtcfsc5916V0416102UniPk.narrowPeak_short._short.bed        -2.618837e-01
+wgEncodeAwgTfbsHaibH1hescEgr1V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescFosl1sc183V0416102UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibH1hescGabpPcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibH1hescHdac2sc6296V0416102UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibH1hescJundV0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescNanogsc33759V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibH1hescNrsfV0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescP300V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescPol24h8V0416102UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibH1hescPol2V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescPou5f1sc9081V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibH1hescRad21V0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibH1hescRxraV0416102UniPk.narrowPeak_short._short.bed               5.174791e-01
+wgEncodeAwgTfbsHaibH1hescSin3ak20Pcr1xUniPk.narrowPeak_short._short.bed             -2.114236e-01
+wgEncodeAwgTfbsHaibH1hescSix5Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibH1hescSp1Pcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibH1hescSp2V0422111UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibH1hescSp4v20V0422111UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibH1hescSrfPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibH1hescTaf1V0416102UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibH1hescTaf7sc101167V0416102UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibH1hescTcf12Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibH1hescTead4sc101184V0422111UniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsHaibH1hescUsf1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibH1hescYy1sc281V0416102UniPk.narrowPeak_short._short.bed           5.937122e-02
+wgEncodeAwgTfbsHaibHct116Pol24h8V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibHct116Yy1sc281V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibHct116Zbtb33V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHelas3GabpPcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHelas3NrsfPcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHelas3Pol2Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHelas3Taf1Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHepg2Atf3V0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibHepg2Bhlhe40V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHepg2Cebpbsc150V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibHepg2Cebpdsc636V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibHepg2Ctcfsc5916V0416101UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibHepg2Elf1sc631V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibHepg2Fosl2V0416101UniPk.narrowPeak_short._short.bed              -1.107140e-01
+wgEncodeAwgTfbsHaibHepg2Foxa1sc101058V0416101UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibHepg2Foxa1sc6553V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2Foxa2sc6554V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2GabpPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Hdac2sc6296V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2Hnf4asc8987V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2Hnf4gsc6558V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2JundPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Mbd4sc271530V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibHepg2Mybl2sc81192V0422111UniPk.narrowPeak_short._short.bed       -1.561546e-01
+wgEncodeAwgTfbsHaibHepg2Nficsc81335V0422111UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibHepg2NrsfPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2NrsfV0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibHepg2P300V0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibHepg2Pol24h8V0416102UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHepg2Pol2Pcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Rad21V0416101UniPk.narrowPeak_short._short.bed              -2.398388e-01
+wgEncodeAwgTfbsHaibHepg2RxraPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Sin3ak20Pcr1xUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsHaibHepg2Sp1Pcr1xUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsHaibHepg2Sp2V0422111UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibHepg2SrfV0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibHepg2Taf1Pcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Tcf12Pcr1xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibHepg2Tead4sc101184V0422111UniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsHaibHepg2Usf1Pcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibHepg2Yy1sc281V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibHepg2Zbtb33Pcr1xUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibHepg2Zbtb7aV0416101UniPk.narrowPeak_short._short.bed             -2.380242e-02
+wgEncodeAwgTfbsHaibHuvecPol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibHuvecPol2Pcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibK562Atf3V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Bcl3Pcr1xUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsHaibK562Bclaf101388Pcr1xUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibK562Cbx3sc101004V0422111UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibK562Cebpbsc150V0422111UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibK562CtcfcPcr1xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibK562Ctcflsc98982V0416101UniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibK562E2f6V0416102UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Egr1V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Elf1sc631V0416102UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibK562Ets1V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Fosl1sc183V0416101UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibK562GabpV0416101UniPk.narrowPeak_short._short.bed                -1.058307e-01
+wgEncodeAwgTfbsHaibK562Gata2sc267Pcr1xUniPk.narrowPeak_short._short.bed              3.921153e-01
+wgEncodeAwgTfbsHaibK562Hdac2sc6296V0416102UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibK562MaxV0416102UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibK562Mef2aV0416101UniPk.narrowPeak_short._short.bed                3.765476e-01
+wgEncodeAwgTfbsHaibK562Nr2f2sc271940V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibK562NrsfV0416102UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Pmlsc71910V0422111UniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibK562Pol24h8V0416101UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibK562Pol2V0416101UniPk.narrowPeak_short._short.bed                 2.486290e-01
+wgEncodeAwgTfbsHaibK562Pu1Pcr1xUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibK562Rad21V0416102UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibK562Sin3ak20V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibK562Six5Pcr1xUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsHaibK562Sp1Pcr1xUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibK562Sp2sc643V0416102UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibK562SrfV0416101UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibK562Stat5asc74442V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibK562Taf1V0416101UniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsHaibK562Taf7sc101167V0416101UniPk.narrowPeak_short._short.bed        -2.058070e-02
+wgEncodeAwgTfbsHaibK562Tead4sc101184V0422111UniPk.narrowPeak_short._short.bed        4.190028e-01
+wgEncodeAwgTfbsHaibK562Thap1sc98174V0416101UniPk.narrowPeak_short._short.bed        -8.586083e-02
+wgEncodeAwgTfbsHaibK562Trim28sc81411V0422111UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibK562Usf1V0416101UniPk.narrowPeak_short._short.bed                -2.369805e-01
+wgEncodeAwgTfbsHaibK562Yy1V0416101UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibK562Yy1V0416102UniPk.narrowPeak_short._short.bed                 -1.171772e+00
+wgEncodeAwgTfbsHaibK562Zbtb33Pcr1xUniPk.narrowPeak_short._short.bed                  7.593722e-01
+wgEncodeAwgTfbsHaibK562Zbtb7asc34508V0416101UniPk.narrowPeak_short._short.bed       -2.221048e-01
+wgEncodeAwgTfbsHaibPanc1NrsfPcr2xUniPk.narrowPeak_short._short.bed                   1.433999e-01
+wgEncodeAwgTfbsHaibPanc1Pol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibPanc1Sin3ak20V0416101UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibPfsk1Foxp2Pcr2xUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsHaibPfsk1NrsfPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibPfsk1Sin3ak20V0416101UniPk.narrowPeak_short._short.bed            2.655472e-01
+wgEncodeAwgTfbsHaibPfsk1Taf1V0416101UniPk.narrowPeak_short._short.bed               -9.564900e-01
+wgEncodeAwgTfbsHaibSknmcFoxp2Pcr2xUniPk.narrowPeak_short._short.bed                 -2.838758e-01
+wgEncodeAwgTfbsHaibSknmcPol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibSknshNrsfPcr2xUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsHaibSknshNrsfV0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibSknshPol24h8V0416101UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibSknshraCtcfV0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibSknshraP300V0416102UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsHaibSknshraRad21V0416102UniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsHaibSknshraUsf1sc8983V0416102UniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsHaibSknshraYy1sc281V0416102UniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsHaibSknshSin3ak20V0416101UniPk.narrowPeak_short._short.bed           -3.265180e-02
+wgEncodeAwgTfbsHaibSknshTaf1V0416101UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsHaibT47dCtcfsc5916V0416102Dm002p1hUniPk.narrowPeak_short._short.bed   .           
+wgEncodeAwgTfbsHaibT47dEraaV0416102Bpa1hUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsHaibT47dEralphaaPcr2xGen1hUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsHaibT47dEralphaaV0416102Est10nm1hUniPk.narrowPeak_short._short.bed    .           
+wgEncodeAwgTfbsHaibT47dFoxa1sc6553V0416102Dm002p1hUniPk.narrowPeak_short._short.bed  .           
+wgEncodeAwgTfbsHaibT47dGata3sc268V0416102Dm002p1hUniPk.narrowPeak_short._short.bed  -4.770691e-02
+wgEncodeAwgTfbsHaibT47dP300V0416102Dm002p1hUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsHaibU87NrsfPcr2xUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsHaibU87Pol24h8V0416101UniPk.narrowPeak_short._short.bed               3.503556e-02
+wgEncodeAwgTfbsSydhA549Bhlhe40IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhA549CebpbIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhA549MaxIggrabUniPk.narrowPeak_short._short.bed                    1.991409e-01
+wgEncodeAwgTfbsSydhA549Pol2s2IggrabUniPk.narrowPeak_short._short.bed                -7.565983e-01
+wgEncodeAwgTfbsSydhA549Rad21IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhGm08714Znf274UcdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhGm10847NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm10847Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Bhlhe40cIggmusUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878Brca1a300IggmusUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhGm12878CfosUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12878Chd1a301218aIggmusUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhGm12878Chd2ab68301IggmusUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhGm12878Corestsc30189IggmusUniPk.narrowPeak_short._short.bed      -1.067052e+00
+wgEncodeAwgTfbsSydhGm12878Ctcfsc15914c20UniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878E2f4IggmusUniPk.narrowPeak_short._short.bed                1.976218e-01
+wgEncodeAwgTfbsSydhGm12878Ebf1sc137065UniPk.narrowPeak_short._short.bed              4.809982e-01
+wgEncodeAwgTfbsSydhGm12878Elk112771IggmusUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhGm12878Ikzf1iknuclaUniPk.narrowPeak_short._short.bed              2.793916e-01
+wgEncodeAwgTfbsSydhGm12878JundUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12878MaxIggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhGm12878Mazab85725IggmusUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhGm12878Mxi1IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Nfe2sc22827UniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhGm12878NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878NfyaIggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878NfybIggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Nrf1IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878P300bUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhGm12878P300IggmusUniPk.narrowPeak_short._short.bed                1.159972e-01
+wgEncodeAwgTfbsSydhGm12878Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Pol2s2IggmusUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhGm12878Pol2UniPk.narrowPeak_short._short.bed                     -2.698173e-01
+wgEncodeAwgTfbsSydhGm12878Pol3UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12878Rad21IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhGm12878Rfx5200401194IggmusUniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsSydhGm12878Sin3anb6001263IggmusUniPk.narrowPeak_short._short.bed      .           
+wgEncodeAwgTfbsSydhGm12878Smc3ab9263IggmusUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhGm12878Stat1UniPk.narrowPeak_short._short.bed                    -1.513356e-01
+wgEncodeAwgTfbsSydhGm12878Stat3IggmusUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhGm12878Tblr1ab24550IggmusUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhGm12878TbpIggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhGm12878Tr4UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhGm12878Usf2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878WhipIggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm12878Yy1UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhGm12878Znf143166181apUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12878Znf274UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhGm12878Zzz3UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhGm12891NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm12891Pol2IggmusUniPk.narrowPeak_short._short.bed               -3.526623e-01
+wgEncodeAwgTfbsSydhGm12892NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed           -3.187844e-01
+wgEncodeAwgTfbsSydhGm12892Pol2IggmusUniPk.narrowPeak_short._short.bed               -4.463026e-01
+wgEncodeAwgTfbsSydhGm15510NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm15510Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm18505NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm18505Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm18526NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed           -5.292326e-01
+wgEncodeAwgTfbsSydhGm18526Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm18951NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhGm18951Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm19099NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed           -5.990332e-01
+wgEncodeAwgTfbsSydhGm19099Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhGm19193NfkbTnfaIggrabUniPk.narrowPeak_short._short.bed           -5.930101e-02
+wgEncodeAwgTfbsSydhGm19193Pol2IggmusUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescBach1sc14700IggrabUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhH1hescBrca1IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescCebpbIggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescChd1a301218aIggrabUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhH1hescChd2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescCjunIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescCmycIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescCtbp2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhH1hescGtf2f1IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhH1hescJundIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescMafkIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescMaxUcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhH1hescMxi1IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescNrf1IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescRad21IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhH1hescRfx5200401194IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhH1hescSin3anb6001263IggrabUniPk.narrowPeak_short._short.bed      -3.303918e-01
+wgEncodeAwgTfbsSydhH1hescSuz12UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhH1hescTbpIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhH1hescUsf2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhH1hescZnf143IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHct116Pol2UcdUniPk.narrowPeak_short._short.bed                   -1.716761e-01
+wgEncodeAwgTfbsSydhHct116Tcf7l2UcdUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHek293Elk4UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHek293Kap1UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHek293Pol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHek293Tcf7l2UcdUniPk.narrowPeak_short._short.bed                 -4.021822e-02
+wgEncodeAwgTfbsSydhHek293tZnf263UcdUniPk.narrowPeak_short._short.bed                 7.772233e-02
+wgEncodeAwgTfbsSydhHelas3Ap2alphaUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHelas3Ap2gammaUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHelas3Baf155IggmusUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHelas3Baf170IggmusUniPk.narrowPeak_short._short.bed              -2.956570e-01
+wgEncodeAwgTfbsSydhHelas3Bdp1UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Brca1a300IggrabUniPk.narrowPeak_short._short.bed           -3.223709e-01
+wgEncodeAwgTfbsSydhHelas3Brf1UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Brf2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Brg1IggmusUniPk.narrowPeak_short._short.bed                 3.595789e-01
+wgEncodeAwgTfbsSydhHelas3CebpbIggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3CfosUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Chd2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3CjunIggrabUniPk.narrowPeak_short._short.bed                 3.419075e-02
+wgEncodeAwgTfbsSydhHelas3CmycUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Corestsc30189IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHelas3E2f1UniPk.narrowPeak_short._short.bed                      -1.948269e-01
+wgEncodeAwgTfbsSydhHelas3E2f4UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3E2f6UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Elk112771IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHelas3Elk4UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHelas3Gtf2f1ab28179IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHelas3Hae2f1UniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhHelas3Ini1IggmusUniPk.narrowPeak_short._short.bed                 3.886379e-03
+wgEncodeAwgTfbsSydhHelas3Irf3IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3JundIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3MafkIggrabUniPk.narrowPeak_short._short.bed                -4.842564e-01
+wgEncodeAwgTfbsSydhHelas3MaxIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHelas3Mazab85725IggrabUniPk.narrowPeak_short._short.bed          -1.839869e-01
+wgEncodeAwgTfbsSydhHelas3Mxi1af4185IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHelas3NfyaIggrabUniPk.narrowPeak_short._short.bed                -7.793639e-02
+wgEncodeAwgTfbsSydhHelas3NfybIggrabUniPk.narrowPeak_short._short.bed                -6.621604e-02
+wgEncodeAwgTfbsSydhHelas3Nrf1IggmusUniPk.narrowPeak_short._short.bed                -1.899563e-01
+wgEncodeAwgTfbsSydhHelas3P300sc584sc584IggrabUniPk.narrowPeak_short._short.bed       .           
+wgEncodeAwgTfbsSydhHelas3Pol2s2IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHelas3Pol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHelas3Prdm19115IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHelas3Rad21IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3Rfx5200401194IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHelas3Rpc155UniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhHelas3Smc3ab9263IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHelas3Spt20UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhHelas3Stat1Ifng30UniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3Stat3IggrabUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHelas3TbpIggrabUniPk.narrowPeak_short._short.bed                  5.152808e-01
+wgEncodeAwgTfbsSydhHelas3Tcf7l2c9b92565UcdUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhHelas3Tcf7l2UcdUniPk.narrowPeak_short._short.bed                 -2.668852e-01
+wgEncodeAwgTfbsSydhHelas3Tf3c110UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHelas3Tr4UniPk.narrowPeak_short._short.bed                        1.508629e+00
+wgEncodeAwgTfbsSydhHelas3Usf2IggmusUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHelas3Zkscan1hpa006672IggrabUniPk.narrowPeak_short._short.bed     .           
+wgEncodeAwgTfbsSydhHelas3Znf143IggrabUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhHelas3Znf274UcdUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHelas3Zzz3UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhHepg2Arid3anb100279IggrabUniPk.narrowPeak_short._short.bed        .           
+wgEncodeAwgTfbsSydhHepg2Bhlhe40cIggrabUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhHepg2Brca1a300IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhHepg2CebpbForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2CebpbIggrabUniPk.narrowPeak_short._short.bed                 1.261198e-01
+wgEncodeAwgTfbsSydhHepg2Chd2ab68301IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHepg2CjunIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2Corestsc30189IggrabUniPk.narrowPeak_short._short.bed        -1.265068e-01
+wgEncodeAwgTfbsSydhHepg2ErraForsklnUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Grp20ForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2Hnf4aForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2Hsf1ForsklnUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Irf3IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2JundIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2Maffm8194IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhHepg2Mafkab50322IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhHepg2Mafksc477IggrabUniPk.narrowPeak_short._short.bed             2.388720e-01
+wgEncodeAwgTfbsSydhHepg2MaxIggrabUniPk.narrowPeak_short._short.bed                   2.152168e-01
+wgEncodeAwgTfbsSydhHepg2Mazab85725IggrabUniPk.narrowPeak_short._short.bed            7.546442e-01
+wgEncodeAwgTfbsSydhHepg2Mxi1UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhHepg2Nrf1IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2P300sc582IggrabUniPk.narrowPeak_short._short.bed            -4.833891e-01
+wgEncodeAwgTfbsSydhHepg2Pgc1aForsklnUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhHepg2Pol2ForsklnUniPk.narrowPeak_short._short.bed                 5.050345e-01
+wgEncodeAwgTfbsSydhHepg2Pol2IggrabUniPk.narrowPeak_short._short.bed                 -3.284659e-01
+wgEncodeAwgTfbsSydhHepg2Pol2s2IggrabUniPk.narrowPeak_short._short.bed               -5.697184e-02
+wgEncodeAwgTfbsSydhHepg2Rad21IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhHepg2Rfx5200401194IggrabUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhHepg2Smc3ab9263IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhHepg2Srebp1InslnUniPk.narrowPeak_short._short.bed                -4.792432e-01
+wgEncodeAwgTfbsSydhHepg2TbpIggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHepg2Tcf7l2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHepg2Tr4UcdUniPk.narrowPeak_short._short.bed                     -3.095360e-01
+wgEncodeAwgTfbsSydhHepg2Usf2IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhHepg2Znf274UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhHuvecCfosUcdUniPk.narrowPeak_short._short.bed                     2.520473e-01
+wgEncodeAwgTfbsSydhHuvecCjunUniPk.narrowPeak_short._short.bed                        4.101389e-01
+wgEncodeAwgTfbsSydhHuvecGata2UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhHuvecMaxUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhHuvecPol2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhImr90CebpbIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhImr90CtcfbIggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhImr90MafkIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhImr90Pol2IggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhImr90Rad21IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Arid3asc8821IggrabUniPk.narrowPeak_short._short.bed           3.896802e-01
+wgEncodeAwgTfbsSydhK562Atf106325UniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Atf3UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Bach1sc14700IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhK562Bdp1UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Bhlhe40nb100IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhK562Brf1UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Brf2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Brg1IggmusUniPk.narrowPeak_short._short.bed                   3.383545e-02
+wgEncodeAwgTfbsSydhK562Ccnt2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562CebpbIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562CfosUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Chd2ab68301IggrabUniPk.narrowPeak_short._short.bed           -4.274255e-01
+wgEncodeAwgTfbsSydhK562CjunIfna30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CjunIfna6hUniPk.narrowPeak_short._short.bed                   3.482327e-01
+wgEncodeAwgTfbsSydhK562CjunIfng30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CjunIfng6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CjunUniPk.narrowPeak_short._short.bed                        -6.017049e-01
+wgEncodeAwgTfbsSydhK562CmycIfna30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIfna6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycIggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562CmycUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Corestab24166IggrabUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhK562Corestsc30189IggrabUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhK562CtcfbIggrabUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562E2f4UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562E2f6UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562Elk112771IggrabUniPk.narrowPeak_short._short.bed             -8.865241e-01
+wgEncodeAwgTfbsSydhK562Gata1UcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhK562Gata2UcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhK562Gtf2bUniPk.narrowPeak_short._short.bed                       -7.490440e-01
+wgEncodeAwgTfbsSydhK562Gtf2f1ab28179IggrabUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhK562Hmgn3UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Ini1IggmusUniPk.narrowPeak_short._short.bed                   7.665999e-02
+wgEncodeAwgTfbsSydhK562Irf1Ifna30UniPk.narrowPeak_short._short.bed                   2.518294e-01
+wgEncodeAwgTfbsSydhK562Irf1Ifna6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng6hUniPk.narrowPeak_short._short.bed                  -1.309246e-01
+wgEncodeAwgTfbsSydhK562JundIggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Kap1UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562MaffIggrabUniPk.narrowPeak_short._short.bed                   6.066494e-01
+wgEncodeAwgTfbsSydhK562Mafkab50322IggrabUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhK562MaxIggrabUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Mazab85725IggrabUniPk.narrowPeak_short._short.bed            -4.787879e-02
+wgEncodeAwgTfbsSydhK562Mxi1af4185IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhK562NelfeUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Nfe2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562NfyaUniPk.narrowPeak_short._short.bed                         1.256465e-02
+wgEncodeAwgTfbsSydhK562NfybUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Nrf1IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562P300IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna30UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifng30UniPk.narrowPeak_short._short.bed                   3.806638e-01
+wgEncodeAwgTfbsSydhK562Pol2Ifng6hUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2IggmusUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Pol2s2IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Pol2s2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhK562Pol2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Pol3UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsSydhK562Rad21UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Rfx5IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Rpc155UniPk.narrowPeak_short._short.bed                      -1.810124e-01
+wgEncodeAwgTfbsSydhK562Setdb1MnasedUcdUniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhK562Setdb1UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Sirt6UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsSydhK562Smc3ab9263IggrabUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhK562Stat1Ifna30UniPk.narrowPeak_short._short.bed                 -5.008481e-02
+wgEncodeAwgTfbsSydhK562Stat1Ifna6hUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng30UniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng6hUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Stat2Ifna30UniPk.narrowPeak_short._short.bed                 -7.090947e-01
+wgEncodeAwgTfbsSydhK562Stat2Ifna6hUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhK562Tal1sc12984IggmusUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhK562Tblr1ab24550IggrabUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhK562Tblr1nb600270IggrabUniPk.narrowPeak_short._short.bed          2.998998e-01
+wgEncodeAwgTfbsSydhK562TbpIggmusUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Tf3c110UniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhK562Tr4UcdUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhK562Ubfsc13125IggmusUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhK562Ubtfsab1404509IggmusUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhK562Usf2IggrabUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhK562Yy1UcdUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsSydhK562Znf143IggrabUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Znf263UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhK562Znf274m01UcdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsSydhK562Znf274UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhMcf10aesCfosEtoh01HvdUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam112hHvdUniPk.narrowPeak_short._short.bed           .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam14hHvdUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTamHvdUniPk.narrowPeak_short._short.bed              -6.859261e-02
+wgEncodeAwgTfbsSydhMcf10aesCmycEtoh01HvdUniPk.narrowPeak_short._short.bed            .           
+wgEncodeAwgTfbsSydhMcf10aesCmycTam14hHvdUniPk.narrowPeak_short._short.bed            8.674479e-02
+wgEncodeAwgTfbsSydhMcf10aesE2f4TamHvdUniPk.narrowPeak_short._short.bed               .           
+wgEncodeAwgTfbsSydhMcf10aesPol2Etoh01UniPk.narrowPeak_short._short.bed               4.457170e-01
+wgEncodeAwgTfbsSydhMcf10aesPol2TamUniPk.narrowPeak_short._short.bed                  .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01bUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01cUniPk.narrowPeak_short._short.bed             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01UniPk.narrowPeak_short._short.bed              .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Tam112hHvdUniPk.narrowPeak_short._short.bed          .           
+wgEncodeAwgTfbsSydhMcf10aesStat3TamUniPk.narrowPeak_short._short.bed                 1.779911e-01
+wgEncodeAwgTfbsSydhMcf7Gata3sc269UcdUniPk.narrowPeak_short._short.bed                .           
+wgEncodeAwgTfbsSydhMcf7Gata3UcdUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsSydhMcf7Hae2f1UcdUniPk.narrowPeak_short._short.bed                   -2.834921e-02
+wgEncodeAwgTfbsSydhMcf7Tcf7l2UcdUniPk.narrowPeak_short._short.bed                   -3.773000e-01
+wgEncodeAwgTfbsSydhMcf7Znf217UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhNb4CmycUniPk.narrowPeak_short._short.bed                          3.403768e-01
+wgEncodeAwgTfbsSydhNb4MaxUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsSydhNb4Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsSydhNt2d1Suz12UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsSydhNt2d1Yy1UcdUniPk.narrowPeak_short._short.bed                      1.382593e-02
+wgEncodeAwgTfbsSydhNt2d1Znf274UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhPanc1Tcf7l2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhPbdefetalGata1UcdUniPk.narrowPeak_short._short.bed                1.252858e+00
+wgEncodeAwgTfbsSydhPbdeGata1UcdUniPk.narrowPeak_short._short.bed                     2.891980e-01
+wgEncodeAwgTfbsSydhPbdePol2UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhRajiPol2UcdUniPk.narrowPeak_short._short.bed                     -1.438156e-01
+wgEncodeAwgTfbsSydhShsy5yGata2UcdUniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsSydhShsy5yGata3sc269sc269UcdUniPk.narrowPeak_short._short.bed         .           
+wgEncodeAwgTfbsSydhU2osKap1UcdUniPk.narrowPeak_short._short.bed                      .           
+wgEncodeAwgTfbsSydhU2osSetdb1UcdUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsUchicagoK562EfosUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsUchicagoK562Egata2UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsUchicagoK562Ehdac8UniPk.narrowPeak_short._short.bed                   .           
+wgEncodeAwgTfbsUchicagoK562EjunbUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsUchicagoK562EjundUniPk.narrowPeak_short._short.bed                    .           
+wgEncodeAwgTfbsUtaA549CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaA549Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaFibroblCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGlioblaCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGlioblaPol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12878CmycUniPk.narrowPeak_short._short.bed                      -5.500976e-01
+wgEncodeAwgTfbsUtaGm12878CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12878Pol2UniPk.narrowPeak_short._short.bed                       2.839367e-02
+wgEncodeAwgTfbsUtaGm12891CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm12892CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm19238CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm19239CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaGm19240CtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaH1hescCmycUniPk.narrowPeak_short._short.bed                        2.749724e-01
+wgEncodeAwgTfbsUtaH1hescCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaH1hescPol2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaHelas3CmycUniPk.narrowPeak_short._short.bed                       -5.938538e-01
+wgEncodeAwgTfbsUtaHelas3CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaHelas3Pol2UniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUtaHepg2CmycUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHepg2CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHepg2Pol2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHuvecCmycUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHuvecCtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaHuvecPol2UniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUtaK562CmycUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaK562CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaK562Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaMcf7CmycEstroUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsUtaMcf7CmycSerumstimUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CmycSerumstvdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CmycVehUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaMcf7CtcfEstroUniPk.narrowPeak_short._short.bed                     .           
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstimUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstvdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaMcf7CtcfVehUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstimUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstvdUniPk.narrowPeak_short._short.bed                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2UniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaNhekCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUtaProgfibCtcfUniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUtaProgfibPol2UniPk.narrowPeak_short._short.bed                       .           
+wgEncodeAwgTfbsUwA549CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwAg04449CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg04450CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg09309CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg09319CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAg10803CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwAoafCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwBe2cCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwBjCtcfUniPk.narrowPeak_short._short.bed                             .           
+wgEncodeAwgTfbsUwCaco2CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwGm06990CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12801CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12864CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12865CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12872CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12873CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12874CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12875CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwGm12878CtcfUniPk.narrowPeak_short._short.bed                       -8.413690e-02
+wgEncodeAwgTfbsUwHacCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHaspCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHbmecCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHcfaaCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHcmCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHcpeCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHct116CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHeeCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHek293CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHelas3CtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHepg2CtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHffCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHffmycCtcfUniPk.narrowPeak_short._short.bed                         .           
+wgEncodeAwgTfbsUwHl60CtcfUniPk.narrowPeak_short._short.bed                          -1.941131e-01
+wgEncodeAwgTfbsUwHmecCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHmfCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHpafCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHpfCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHreCtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwHrpeCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwHuvecCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwHvmfCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwK562CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwMcf7CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwNb4CtcfUniPk.narrowPeak_short._short.bed                            .           
+wgEncodeAwgTfbsUwNhdfneoCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwNhekCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwNhlfCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwRptecCtcfUniPk.narrowPeak_short._short.bed                          .           
+wgEncodeAwgTfbsUwSaecCtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeAwgTfbsUwSknshraCtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwWerirb1CtcfUniPk.narrowPeak_short._short.bed                        .           
+wgEncodeAwgTfbsUwWi38CtcfUniPk.narrowPeak_short._short.bed                           .           
+wgEncodeBroadHistoneGm12878CtcfStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneGm12878H2azStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneGm12878H3k04me1StdPkV2.broadPeak_short._short.bed                2.323482e-01
+wgEncodeBroadHistoneGm12878H3k04me3StdPkV2.broadPeak_short._short.bed                .           
+wgEncodeBroadHistoneGm12878H3k27acStdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H3k27me3StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneGm12878H3k27me3StdPkV2.broadPeak_short._short.bed                6.793304e-02
+wgEncodeBroadHistoneGm12878H3k36me3StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneGm12878H3k4me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H3k4me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H3k79me2StdPk.broadPeak_short._short.bed                  1.064765e-01
+wgEncodeBroadHistoneGm12878H3k9acStdPk.broadPeak_short._short.bed                    1.217730e-01
+wgEncodeBroadHistoneGm12878H3k9me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneGm12878H4k20me1StdPk.broadPeak_short._short.bed                  1.047221e-01
+wgEncodeBroadHistoneH1hescChd1a301218aStdPk.broadPeak_short._short.bed               .           
+wgEncodeBroadHistoneH1hescCtcfStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneH1hescH2azStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneH1hescH3k09me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescH3k27acStdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k27me3StdPk.broadPeak_short._short.bed                   1.577932e-01
+wgEncodeBroadHistoneH1hescH3k36me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescH3k4me1StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k4me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k4me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneH1hescH3k79me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneH1hescH3k9acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneH1hescH4k20me1StdPk.broadPeak_short._short.bed                   3.277161e-02
+wgEncodeBroadHistoneH1hescJarid1aab26049StdPk.broadPeak_short._short.bed             1.214605e-01
+wgEncodeBroadHistoneH1hescRbbp5a300109aStdPk.broadPeak_short._short.bed              .           
+wgEncodeBroadHistoneHelas3CtcfStdPk.broadPeak_short._short.bed                       2.450308e-02
+wgEncodeBroadHistoneHelas3H3k04me1StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k27acStdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHelas3H3k27me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k36me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k4me2StdPk.broadPeak_short._short.bed                   -1.110515e-01
+wgEncodeBroadHistoneHelas3H3k4me3StdPk.broadPeak_short._short.bed                   -1.839369e-02
+wgEncodeBroadHistoneHelas3H3k79me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3H3k9acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHelas3H4k20me1StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneHelas3Pol2bStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHepg2CtcfStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHepg2H2azStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHepg2H3k04me1StdPk.broadPeak_short._short.bed                    1.236962e-01
+wgEncodeBroadHistoneHepg2H3k27acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHepg2H3k27me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHepg2H3k36me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHepg2H3k4me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHepg2H3k4me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHepg2H3k79me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHepg2H3k9acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHepg2H4k20me1StdPk.broadPeak_short._short.bed                   -1.263978e-01
+wgEncodeBroadHistoneHmecCtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneHmecH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHmecH3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHmecH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHmecH3k4me1StdPk.broadPeak_short._short.bed                      1.177961e-01
+wgEncodeBroadHistoneHmecH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHmecH3k4me3StdPk.broadPeak_short._short.bed                     -3.166182e-01
+wgEncodeBroadHistoneHmecH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneHmecH4k20me1StdPk.broadPeak_short._short.bed                    -1.393060e-01
+wgEncodeBroadHistoneHsmmCtcfStdPk.broadPeak_short._short.bed                         1.775485e-01
+wgEncodeBroadHistoneHsmmH2azStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneHsmmH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmH3k4me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmH3k79me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneHsmmH3k9me3StdPk.broadPeak_short._short.bed                     -2.995454e-01
+wgEncodeBroadHistoneHsmmH4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmtCtcfStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHsmmtH2azStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHsmmtH3k27acStdPk.broadPeak_short._short.bed                     1.942066e-01
+wgEncodeBroadHistoneHsmmtH3k36me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHsmmtH3k4me1StdPk.broadPeak_short._short.bed                     1.089533e-01
+wgEncodeBroadHistoneHsmmtH3k4me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmtH3k4me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHsmmtH3k79me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHsmmtH3k9acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHsmmtH4k20me1StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecCtcfStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneHuvecH3k27acStdPk.broadPeak_short._short.bed                     1.238852e-01
+wgEncodeBroadHistoneHuvecH3k27me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecH3k36me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecH3k4me1StdPk.broadPeak_short._short.bed                     8.564453e-02
+wgEncodeBroadHistoneHuvecH3k4me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHuvecH3k4me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHuvecH3k9acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneHuvecH3k9me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneHuvecH4k20me1StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneHuvecPol2bStdPk.broadPeak_short._short.bed                       6.825613e-02
+wgEncodeBroadHistoneK562Chd1a301218aStdPk.broadPeak_short._short.bed                 .           
+wgEncodeBroadHistoneK562CtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562Ezh239875StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneK562H2azStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562H3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneK562H3k27me3StdPk.broadPeak_short._short.bed                    -4.345374e-02
+wgEncodeBroadHistoneK562H3k36me3StdPk.broadPeak_short._short.bed                     2.336041e-01
+wgEncodeBroadHistoneK562H3k4me1StdPk.broadPeak_short._short.bed                      2.855371e-01
+wgEncodeBroadHistoneK562H3k4me2StdPk.broadPeak_short._short.bed                      2.823946e-01
+wgEncodeBroadHistoneK562H3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneK562H3k79me2StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneK562H3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneK562H3k9me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneK562H3k9me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneK562H4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneK562Hdac1sc6298StdPk.broadPeak_short._short.bed                  1.172417e-01
+wgEncodeBroadHistoneK562Hdac2a300705aStdPk.broadPeak_short._short.bed                1.672778e-01
+wgEncodeBroadHistoneK562P300StdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562Phf8a301772aStdPk.broadPeak_short._short.bed                 .           
+wgEncodeBroadHistoneK562Plu1StdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneK562Pol2bStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneK562Rbbp5a300109aStdPk.broadPeak_short._short.bed                1.235512e-01
+wgEncodeBroadHistoneK562Sap3039731StdPk.broadPeak_short._short.bed                  -2.873146e-02
+wgEncodeBroadHistoneNhaCtcfStdPk.broadPeak_short._short.bed                          .           
+wgEncodeBroadHistoneNhaH3k27acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhaH3k27me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhaH3k36me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhaH3k4me1StdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhaH3k4me3StdPk.broadPeak_short._short.bed                      -1.984839e-01
+wgEncodeBroadHistoneNhdfadCtcfStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhdfadH3k27acStdPk.broadPeak_short._short.bed                   -3.297354e-03
+wgEncodeBroadHistoneNhdfadH3k27me3StdPk.broadPeak_short._short.bed                   4.526058e-02
+wgEncodeBroadHistoneNhdfadH3k36me3StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneNhdfadH3k4me2StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneNhdfadH3k4me3StdPk.broadPeak_short._short.bed                    .           
+wgEncodeBroadHistoneNhdfadH3k9acStdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekCtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneNhekH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH3k27me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekH3k4me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH3k4me3StdPk.broadPeak_short._short.bed                     -6.892130e-03
+wgEncodeBroadHistoneNhekH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhekH3k9me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhekH4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhekPol2bStdPk.broadPeak_short._short.bed                        .           
+wgEncodeBroadHistoneNhlfCtcfStdPk.broadPeak_short._short.bed                         .           
+wgEncodeBroadHistoneNhlfH3k27acStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k27me3StdPk.broadPeak_short._short.bed                     1.397595e-01
+wgEncodeBroadHistoneNhlfH3k36me3StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneNhlfH3k4me1StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k4me2StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k4me3StdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneNhlfH3k9acStdPk.broadPeak_short._short.bed                       .           
+wgEncodeBroadHistoneNhlfH4k20me1StdPk.broadPeak_short._short.bed                     .           
+wgEncodeBroadHistoneOsteoblCtcfStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneOsteoblH2azStdPk.broadPeak_short._short.bed                      .           
+wgEncodeBroadHistoneOsteoblH3k27acStdPk.broadPeak_short._short.bed                   2.181155e-02
+wgEncodeBroadHistoneOsteoblH3k36me3StdPk.broadPeak_short._short.bed                  .           
+wgEncodeBroadHistoneOsteoblH3k4me1StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneOsteoblH3k4me2StdPk.broadPeak_short._short.bed                   .           
+wgEncodeBroadHistoneOsteoblH3k9me3StdPk.broadPeak_short._short.bed                  -5.675984e-01
+wgEncodeBroadHmmGm12878HMM._short.bed                                                1.380630e-01
+wgEncodeBroadHmmH1hescHMM._short.bed                                                 2.072044e-14
+wgEncodeBroadHmmHepg2HMM._short.bed                                                  1.038135e-03
+wgEncodeBroadHmmHmecHMM._short.bed                                                   1.874706e-14
+wgEncodeBroadHmmHsmmHMM._short.bed                                                   9.866876e-16
+wgEncodeBroadHmmHuvecHMM._short.bed                                                  .           
+wgEncodeBroadHmmK562HMM._short.bed                                                   .           
+wgEncodeBroadHmmNhekHMM._short.bed                                                   .           
+wgEncodeBroadHmmNhlfHMM._short.bed                                                   .           
+AUC saved as 190808.AstlePLT.865.factors.NbrMAFgt10.run17.AUCplot.pdf
+null device 
+          1 
