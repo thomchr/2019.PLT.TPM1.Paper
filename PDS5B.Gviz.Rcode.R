@@ -1,9 +1,9 @@
 #load package including smaller subitems, as specified in Gviz.pdf
 library(Gviz) 
 
-chr <- 'chr15' #this is how everything downstream can be generic. Can just change the 'chr#' for each
+chr <- 'chr13' #this is how everything downstream can be generic. Can just change the 'chr#' for each
 gen <- 'hg19'
-loc <- 63341996
+loc <- 33164418
 
 library(GenomicRanges)
 gtrack <- GenomeAxisTrack()
@@ -48,13 +48,13 @@ ot <- OverlayTrack(trackList = list(WGplt, ProxyPlt, IndexPlt), ylim = c(-1,5))
 ot2 <- OverlayTrack(trackList = list(WGred, ProxyRed, IndexRed), ylim = c(-1,5))
 
 
-pdf("TPM1.100kb.wWGS.locus.pdf")
+pdf("PDS5B.100kb.wWGS.locus.pdf")
 ub <- loc + 100000
 lb <- loc - 100000
 plotTracks(list(ot2, ot, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.10kb.wWGS.locus.pdf")
+pdf("PDS5B.10kb.wWGS.locus.pdf")
 ub <- loc + 10000
 lb <- loc - 10000
 plotTracks(list(ot2, ot, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
@@ -68,37 +68,31 @@ ot <- OverlayTrack(trackList = list(ProxyPlt, IndexPlt), ylim = c(-1,5))
 ot2 <- OverlayTrack(trackList = list(ProxyRed, IndexRed), ylim = c(-1,5))
 
 
-pdf("TPM1.1Mb.locus.pdf")
+pdf("PDS5B.1Mb.locus.pdf")
 ub <- loc + 1000000
 lb <- loc - 1000000
 plotTracks(list(WGplt, WGred, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.100kb.WGS.locus.pdf")
+pdf("PDS5B.100kb.WGS.locus.pdf")
 ub <- loc + 100000
 lb <- loc - 100000
 plotTracks(list(WGplt, WGred, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = TRUE, shape = "arrow", transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.100kb.locus.pdf")
+pdf("PDS5B.100kb.locus.pdf")
 ub <- loc + 100000
 lb <- loc - 100000
 plotTracks(list(ot, grtrack, HSC, CD34, MEP, Ery, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.10kb.locus.atac.pdf")
-ub <- loc + 10000
-lb <- loc - 10000
-plotTracks(list(ot, grtrack, HSC, CD34, MEP, Ery, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
-dev.off() 
-
-pdf("TPM1.10kb.locus.pdf")
+pdf("PDS5B.10kb.locus.pdf")
 ub <- loc + 10000
 lb <- loc - 10000
 plotTracks(list(ot, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.1kb.locus.pdf")
+pdf("PDS5B.1kb.locus.pdf")
 ub <- loc + 1000
 lb <- loc - 1000
 plotTracks(list(ot2, ot, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
@@ -127,39 +121,39 @@ quit()
 #ot <- OverlayTrack(trackList = list(GWASproxyScores, GWASscores, WGscores), ylim = c(0,2))
 #ot2 <- OverlayTrack(trackList = list(GWASproxyScores, GWASscores), ylim = c(0,2))
 
-#pdf("TPM1.70kb.SNPsGRMarks.locus.pdf")
+#pdf("PDS5B.70kb.SNPsGRMarks.locus.pdf")
 #plotTracks(list(ot2, grtrack, GATA1, FLI1, K562RbBP5, K562H3K36m3, K562H3K79m2, GmH3K4m1, GmH3K4m2, GmH3K27ac, HuvH3K4m2, gtrack), chromosome = chr, from = 63320000, to = 63390000, type = "histogram", scale = 0.25, labelPos = 'below') 
 #dev.off()
 
-#pdf("TPM1.100kb.wWGS.locus.pdf")
+#pdf("PDS5B.100kb.wWGS.locus.pdf")
 #plotTracks(list(ot2, grtrack, GATA1, FLI1, K562RbBP5, K562H3K36m3, K562H3K79m2, GmH3K4m1, GmH3K4m2, GmH3K27ac, HuvH3K4m2, gtrack), chromosome = chr, from = 63291996, to = 63391996, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 #dev.off() 
 
-pdf("TPM1.100kb.locus.pdf")
+pdf("PDS5B.100kb.locus.pdf")
 ub <- loc + 100000
 lb <- loc - 100000
 plotTracks(list(ot2, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.100kb.SNPs.GeneRegiononly.locus.pdf")
+pdf("PDS5B.100kb.SNPs.GeneRegiononly.locus.pdf")
 plotTracks(list(ot2, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.10kb.locus.pdf")
+pdf("PDS5B.10kb.locus.pdf")
 lb <- loc - 10000
 ub <- loc + 10000
 plotTracks(list(ot2, grtrack, gtrack), chromosome = chr, from = lb, to = ub, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 dev.off() 
 
-#pdf("TPM1.1kb.locus.pdf")
+#pdf("PDS5B.1kb.locus.pdf")
 #plotTracks(list(ot2, grtrack, GATA1, FLI1, K562RbBP5, K562H3K36m3, K562H3K79m2, GmH3K4m1, GmH3K4m2, GmH3K27ac, HuvH3K4m2, gtrack), chromosome = chr, from = 63341496, to = 63342495, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = 'meta', transcriptAnnotation = 'gene_name')
 #dev.off() 
 
-pdf("TPM1.1Mb.GRonly.locus.pdf")
+pdf("PDS5B.1Mb.GRonly.locus.pdf")
 plotTracks(list(ot2, grtrack, gtrack), chromosome = chr, from = 62841996, to = 63841996, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = TRUE, shape = "arrow", transcriptAnnotation = 'gene_name')
 dev.off() 
 
-pdf("TPM1.1Mb.GRonly.noannotation.locus.pdf")
+pdf("PDS5B.1Mb.GRonly.noannotation.locus.pdf")
 plotTracks(list(ot2, grtrack, gtrack), chromosome = chr, from = 62841996, to = 63841996, type = "histogram", scale = 0.25, labelPos = 'below', collapseTranscripts = TRUE, shape = "arrow")
 dev.off() 
 
