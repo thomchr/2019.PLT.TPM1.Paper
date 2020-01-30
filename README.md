@@ -48,42 +48,54 @@ This is not a big enough data set to get a very good model! But it represents th
 #To score SNPs genome-wide
 We ran Score_GLMnetLasso.pl to analyze the snp147 genome based on the features and coefficients in our model.
 The output is too big for Github, but we are happy to provide you with this file if you’d like.
-Relevant subsets of this scored genome that were used for subsequent analyses are included (e.g., as controls for Gieger73.LASSO.forROCR.txt)
+Relevant subsets of this scored genome that were used for subsequent analyses are included (e.g., as controls for AstlePLT.LASSO.cat.forROCR and AstleRedCell.LASSO.cat.forROCR)
 
 #To create ROCR plots to estimate accuracy of those score predictions, 
 
-1. For Training set, download the following Data Files: 
-	Gieger73.LASSO.forROCR.txt
-	Gieger73.GWAVA.forROCR.txt
-	Gieger73.DeepSea.forROCR.txt
-	Gieger73.CADD.forROCR.txt
+1. For Astle Platelet set, download the following Data Files: 
+	AstlePLT.LASSO.cat.forROCR
+	AstlePLT.GWAVA.cat.forROCR
+	AstlePLT.CADD.cat.forROCR
+	AstlePlatelet.DeepSEA.forROCR
 
-	Download and run from Scripts: ROCR.submission.Gieger73.R
+	Download and run from Scripts: ROCR.submission.AstlePLT_191108.R
 
-2. For Holdout set, download the following Data Files: 
-	Gieger8.LASSO.forROCR.txt
-	Gieger8.GWAVA.forROCR.txt
-	Gieger8.DeepSea.forROCR.txt
-	Gieger8.CADD.forROCR.txt
+2. For Astle Red Cell set, download the following Data Files: 
+	AstleRedCell.LASSO.cat.forROCR
+	AstleRedCell.GWAVA.cat.forROCR
+	AstleRedCell.CADD.cat.forROCR
+	AstleRedCell.DeepSEA.forROCR
 
-	Download and run from Scripts: ROCR.submission.Gieger8holdouts.R
-
-3. For Validation set, download the following Data Files: 
-	AstlePLT.LASSO.forROCR.txt
-	AstlePLT.GWAVA.forROCR.txt
-	AstlePLT.DeepSea.forROCR.txt
-	AstlePLT.CADD.forROCR.txt
-
-	Download and run from Scripts: ROCR.submission.AstlePLT_Giegerpaper.R
+	Download and run from Scripts: ROCR.submission.AstleRedCell_191108.R
+	
 
 #To create plots that help visualize overlay gene locations and chromatin feature tracks/peaks, we used Gviz. Sample script that generated data found in the paper can be seen at: 
 	PIK3CG.Gviz.Rcode.R
 	TPM1.Gviz.Rcode.R
+	(other '...Rcode.R' are for other prioritized loci in Table 1) 
 	
    We are happy to help but recommend you play around with this and your own chromatin feature tracks. There are also very nice tutorials for Gviz online. 
 
-#To identify associations between model scores and GWAS pvalues, we used the following Script. Summary statistics used for these analyses are not publicly available (Gieger 2011 study) but you could certainly adapt this script for other related GWAS: 
+#To identify associations between model scores and GWAS pvalues, we used the following Script. Summary statistics used for these analyses are publicly available (Astle 2016 Cell paper) and you could certainly adapt this script for other related GWAS: 
 	Pval.vs.Score.pl
+	
+#To identify overlaps with FANTOM5 enhancers we used the following script (see Scripts), and analyzed the following 'OverlapSNPs' files to generate Stats.Rout which was used for plotting (see DataFiles):
+	bedtoolsIntersect.pl (see Scripts)
+	CNhs12458.OverlapSNPs
+	CNhs12553.OverlapSNPs
+	CNhs12588.OverlapSNPs
+	CNhs12684.OverlapSNPs
+	CNhs12786.OverlapSNPs
+	CNhs12845.OverlapSNPs
+	CNhs13964.OverlapSNPs
+	CNhs13969.OverlapSNPs
+	CNhs13970.OverlapSNPs
+	CNhs13971.OverlapSNPs
+	CNhs14067.OverlapSNPs
+	CNhs14068.OverlapSNPs
+	JoinedControl.OverlapSNPs
+	MK.CNhs11859.OverlapSNPs
+	Stats.Rout
 
 
 
