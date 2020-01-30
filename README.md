@@ -4,6 +4,8 @@ Enclosed are DataFiles and Scripts associated with Thom et al, Machine learning-
 
 Please direct questions to thomc@email.chop.edu
 
+See different branches for Data, Scripts, and a small DEMO of the penalized regression approach
+
 
 # Overview
 This workflow is designed to take sentinel GWAS SNPs (or any 'positive control' loci) and a set of chromatin features, create a table of overlap information and ultimately output a machine learning prediction model including features that accurately discriminate your original GWAS SNPs from a set of controls. 
