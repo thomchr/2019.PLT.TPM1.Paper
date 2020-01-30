@@ -1,0 +1,55 @@
+
+R version 3.6.1 (2019-07-05) -- "Action of the Toes"
+Copyright (C) 2019 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #module load R
+> 
+> setwd("/project/voight_ML/thomc/thomc_results/ScoreValidation/FANTOM5/Nov2019.AstleModels/")
+> fileNames <- Sys.glob("*.OverlapSNPs")
+> 
+> for (fileName in fileNames) {
++ 
++     sample <- read.table(fileName, header=F)
++     LASSO.score <- sample[,6]  
++     sd <- sd(LASSO.score)
++     mean <- mean(LASSO.score)
++     N <- nrow(sample)
++ 
++     cat(fileName,"\t",mean,"\t",sd,"\t",N,"\n")
++     
++ 
++ }
+CNhs12458.OverlapSNPs 	 1.765167 	 1.00999 	 3060 
+CNhs12553.OverlapSNPs 	 1.218577 	 0.9469946 	 9929 
+CNhs12588.OverlapSNPs 	 1.121354 	 0.9347464 	 9105 
+CNhs12684.OverlapSNPs 	 1.875891 	 1.004924 	 1957 
+CNhs12786.OverlapSNPs 	 1.269532 	 1.035136 	 968 
+CNhs12845.OverlapSNPs 	 0.642572 	 0.7698618 	 31128 
+CNhs13964.OverlapSNPs 	 0.8988272 	 0.8605802 	 14349 
+CNhs13969.OverlapSNPs 	 0.8608138 	 0.8468892 	 13152 
+CNhs13970.OverlapSNPs 	 0.9544694 	 0.8521582 	 9994 
+CNhs13971.OverlapSNPs 	 0.9042623 	 0.8486245 	 11007 
+CNhs14067.OverlapSNPs 	 0.9553935 	 0.8864537 	 5211 
+CNhs14068.OverlapSNPs 	 0.9062954 	 0.8525762 	 6466 
+JoinedControl.OverlapSNPs 	 0.9542613 	 0.849366 	 14180 
+MK.CNhs11859.OverlapSNPs 	 1.071513 	 0.967389 	 20116 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  0.851   0.126   1.229 
