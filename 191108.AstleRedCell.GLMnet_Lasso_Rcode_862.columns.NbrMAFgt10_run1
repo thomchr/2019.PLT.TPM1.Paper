@@ -1,0 +1,1957 @@
+
+nrow: [1] 82718
+ncol: [1] 887
+print(cvfit)
+$lambda
+ [1] 9.116976e-03 8.307049e-03 7.569074e-03 6.896658e-03 6.283978e-03
+ [6] 5.725727e-03 5.217069e-03 4.753599e-03 4.331302e-03 3.946521e-03
+[11] 3.595923e-03 3.276471e-03 2.985399e-03 2.720184e-03 2.478530e-03
+[16] 2.258345e-03 2.057720e-03 1.874917e-03 1.708355e-03 1.556589e-03
+[21] 1.418306e-03 1.292308e-03 1.177503e-03 1.072897e-03 9.775835e-04
+[26] 8.907377e-04 8.116070e-04 7.395061e-04 6.738104e-04 6.139509e-04
+[31] 5.594092e-04 5.097128e-04 4.644314e-04 4.231726e-04 3.855791e-04
+[36] 3.513253e-04 3.201145e-04 2.916764e-04 2.657647e-04 2.421549e-04
+[41] 2.206425e-04 2.010412e-04 1.831813e-04 1.669080e-04 1.520803e-04
+[46] 1.385699e-04 1.262598e-04 1.150432e-04 1.048231e-04 9.551088e-05
+[51] 8.702596e-05 7.929481e-05 7.225048e-05 6.583195e-05 5.998362e-05
+[56] 5.465484e-05 4.979945e-05 4.537541e-05 4.134438e-05 3.767146e-05
+[61] 3.432483e-05 3.127551e-05 2.849708e-05 2.596548e-05 2.365877e-05
+[66] 2.155699e-05 1.964193e-05 1.789700e-05 1.630708e-05 1.485840e-05
+[71] 1.353842e-05 1.233570e-05 1.123983e-05 1.024132e-05 9.331508e-06
+[76] 8.502523e-06 7.747182e-06 7.058944e-06 6.431847e-06 5.860459e-06
+[81] 5.339832e-06 4.865456e-06 4.433222e-06 4.039387e-06 3.680539e-06
+[86] 3.353570e-06 3.055648e-06 2.784193e-06 2.536853e-06 2.311486e-06
+[91] 2.106140e-06 1.919036e-06 1.748554e-06 1.593218e-06 1.451680e-06
+[96] 1.322717e-06 1.205211e-06
+
+$cvm
+ [1] 0.6024449 0.6172540 0.6224782 0.6237243 0.6276724 0.6364961 0.6473626
+ [8] 0.6571742 0.6658200 0.6729157 0.6794331 0.6857381 0.6919601 0.6975043
+[15] 0.7028923 0.7084246 0.7131227 0.7171294 0.7204065 0.7232361 0.7257320
+[22] 0.7278749 0.7295580 0.7308990 0.7323776 0.7338334 0.7348377 0.7356581
+[29] 0.7364342 0.7369599 0.7371529 0.7369065 0.7363377 0.7355230 0.7345025
+[36] 0.7332213 0.7311709 0.7285222 0.7255588 0.7226335 0.7196257 0.7168251
+[43] 0.7143823 0.7120345 0.7095741 0.7069079 0.7039362 0.7008471 0.6976489
+[50] 0.6944710 0.6911845 0.6878492 0.6850361 0.6827767 0.6808420 0.6789652
+[57] 0.6770981 0.6754927 0.6739983 0.6725426 0.6712717 0.6704194 0.6695937
+[64] 0.6687519 0.6679217 0.6672057 0.6664598 0.6657809 0.6651148 0.6644487
+[71] 0.6638366 0.6632021 0.6625330 0.6619147 0.6613268 0.6607830 0.6602944
+[78] 0.6598799 0.6594730 0.6590876 0.6587544 0.6584588 0.6581866 0.6578890
+[85] 0.6576111 0.6573589 0.6571043 0.6568543 0.6566334 0.6564373 0.6562705
+[92] 0.6561055 0.6559366 0.6558358 0.6557801 0.6557135 0.6556654
+
+$cvsd
+ [1] 0.010943217 0.010085584 0.009816106 0.009780647 0.010161380 0.010213434
+ [7] 0.010189213 0.009900299 0.009557225 0.009112398 0.008724527 0.008382488
+[13] 0.008060459 0.007793212 0.007648203 0.007588812 0.007541473 0.007503050
+[19] 0.007409970 0.007358531 0.007359405 0.007292844 0.007184532 0.006997615
+[25] 0.006705289 0.006486982 0.006260768 0.006155578 0.006094078 0.006122455
+[31] 0.006183911 0.006231693 0.006232772 0.006346108 0.006616643 0.006914890
+[37] 0.007160142 0.007465163 0.007812449 0.007974623 0.007879110 0.007809196
+[43] 0.007822839 0.007842869 0.007835108 0.007824117 0.007831522 0.007898052
+[49] 0.008027276 0.008236875 0.008502134 0.008869086 0.009174400 0.009339995
+[55] 0.009426116 0.009421190 0.009396379 0.009373031 0.009376992 0.009380733
+[61] 0.009373507 0.009207766 0.009060484 0.008904771 0.008776882 0.008684125
+[67] 0.008596812 0.008531540 0.008482709 0.008438751 0.008430589 0.008437275
+[73] 0.008466512 0.008505170 0.008549427 0.008589744 0.008634477 0.008664847
+[79] 0.008691393 0.008727774 0.008757264 0.008786605 0.008821750 0.008852028
+[85] 0.008885156 0.008911576 0.008941915 0.008976701 0.009001630 0.009021341
+[91] 0.009035274 0.009052954 0.009069161 0.009084824 0.009093847 0.009106644
+[97] 0.009114940
+
+$cvup
+ [1] 0.6133881 0.6273396 0.6322943 0.6335049 0.6378338 0.6467096 0.6575518
+ [8] 0.6670745 0.6753772 0.6820281 0.6881577 0.6941205 0.7000206 0.7052975
+[15] 0.7105405 0.7160134 0.7206642 0.7246325 0.7278165 0.7305946 0.7330914
+[22] 0.7351677 0.7367425 0.7378966 0.7390829 0.7403204 0.7410984 0.7418136
+[29] 0.7425283 0.7430824 0.7433368 0.7431382 0.7425705 0.7418691 0.7411192
+[36] 0.7401362 0.7383311 0.7359873 0.7333712 0.7306081 0.7275048 0.7246343
+[43] 0.7222051 0.7198774 0.7174092 0.7147320 0.7117677 0.7087452 0.7056761
+[50] 0.7027079 0.6996866 0.6967183 0.6942105 0.6921167 0.6902681 0.6883864
+[57] 0.6864945 0.6848657 0.6833753 0.6819233 0.6806452 0.6796272 0.6786542
+[64] 0.6776567 0.6766986 0.6758898 0.6750566 0.6743124 0.6735975 0.6728875
+[71] 0.6722672 0.6716394 0.6709995 0.6704198 0.6698763 0.6693728 0.6689289
+[78] 0.6685447 0.6681644 0.6678154 0.6675116 0.6672454 0.6670083 0.6667411
+[85] 0.6664963 0.6662705 0.6660462 0.6658310 0.6656350 0.6654587 0.6653058
+[92] 0.6651585 0.6650058 0.6649207 0.6648740 0.6648201 0.6647804
+
+$cvlo
+ [1] 0.5915016 0.6071684 0.6126621 0.6139436 0.6175111 0.6262827 0.6371734
+ [8] 0.6472739 0.6562627 0.6638033 0.6707086 0.6773556 0.6838997 0.6897111
+[15] 0.6952441 0.7008358 0.7055812 0.7096264 0.7129965 0.7158775 0.7183726
+[22] 0.7205820 0.7223734 0.7239014 0.7256723 0.7273464 0.7285769 0.7295025
+[29] 0.7303401 0.7308374 0.7309690 0.7306748 0.7301050 0.7291769 0.7278859
+[36] 0.7263064 0.7240108 0.7210570 0.7177463 0.7146589 0.7117466 0.7090159
+[43] 0.7065594 0.7041916 0.7017390 0.6990838 0.6961047 0.6929491 0.6896216
+[50] 0.6862342 0.6826823 0.6789801 0.6758617 0.6734367 0.6714159 0.6695440
+[57] 0.6677017 0.6661197 0.6646213 0.6631618 0.6618982 0.6612116 0.6605332
+[64] 0.6598471 0.6591449 0.6585215 0.6578629 0.6572493 0.6566321 0.6560100
+[71] 0.6554060 0.6547649 0.6540665 0.6534095 0.6527774 0.6521933 0.6516599
+[78] 0.6512150 0.6507816 0.6503598 0.6499971 0.6496722 0.6493648 0.6490370
+[85] 0.6487260 0.6484473 0.6481624 0.6478776 0.6476318 0.6474160 0.6472353
+[92] 0.6470526 0.6468675 0.6467510 0.6466863 0.6466068 0.6465505
+
+$nzero
+ s0  s1  s2  s3  s4  s5  s6  s7  s8  s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 
+  3   5   5   6   8  10  10  12  14  14  18  19  20  22  22  22  25  29  30  34 
+s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 
+ 40  47  53  67  81  92 113 128 154 175 196 224 241 266 287 303 334 360 391 402 
+s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 
+441 449 466 482 508 531 553 566 582 592 613 634 650 665 679 687 708 712 724 732 
+s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 
+744 751 759 767 772 780 783 793 791 799 805 808 811 812 819 820 820 826 830 833 
+s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 s96 
+833 832 835 835 835 839 837 844 841 844 841 847 847 846 848 848 846 
+
+$name
+  auc 
+"AUC" 
+
+$glmnet.fit
+
+Call:  glmnet(x = x, y = y, penalty.factor = pfactor, family = "binomial") 
+
+       Df    %Dev    Lambda
+ [1,]   3 0.01427 9.117e-03
+ [2,]   5 0.02505 8.307e-03
+ [3,]   5 0.02996 7.569e-03
+ [4,]   6 0.03303 6.897e-03
+ [5,]   8 0.03764 6.284e-03
+ [6,]  10 0.04398 5.726e-03
+ [7,]  10 0.04976 5.217e-03
+ [8,]  12 0.05419 4.754e-03
+ [9,]  14 0.05875 4.331e-03
+[10,]  14 0.06233 3.947e-03
+[11,]  18 0.06535 3.596e-03
+[12,]  19 0.06857 3.276e-03
+[13,]  20 0.07184 2.985e-03
+[14,]  22 0.07448 2.720e-03
+[15,]  22 0.07720 2.479e-03
+[16,]  22 0.07977 2.258e-03
+[17,]  25 0.08193 2.058e-03
+[18,]  29 0.08380 1.875e-03
+[19,]  30 0.08567 1.708e-03
+[20,]  34 0.08758 1.557e-03
+[21,]  40 0.08976 1.418e-03
+[22,]  47 0.09214 1.292e-03
+[23,]  53 0.09456 1.178e-03
+[24,]  67 0.09732 1.073e-03
+[25,]  81 0.10090 9.776e-04
+[26,]  92 0.10450 8.907e-04
+[27,] 113 0.10810 8.116e-04
+[28,] 128 0.11210 7.395e-04
+[29,] 154 0.11630 6.738e-04
+[30,] 175 0.12100 6.140e-04
+[31,] 196 0.12570 5.594e-04
+[32,] 224 0.13080 5.097e-04
+[33,] 241 0.13590 4.644e-04
+[34,] 266 0.14120 4.232e-04
+[35,] 287 0.14630 3.856e-04
+[36,] 303 0.15100 3.513e-04
+[37,] 334 0.15550 3.201e-04
+[38,] 360 0.16010 2.917e-04
+[39,] 391 0.16450 2.658e-04
+[40,] 402 0.16880 2.422e-04
+[41,] 441 0.17300 2.206e-04
+[42,] 449 0.17700 2.010e-04
+[43,] 466 0.18060 1.832e-04
+[44,] 482 0.18390 1.669e-04
+[45,] 508 0.18700 1.521e-04
+[46,] 531 0.19010 1.386e-04
+[47,] 553 0.19290 1.263e-04
+[48,] 566 0.19560 1.150e-04
+[49,] 582 0.19810 1.048e-04
+[50,] 592 0.20040 9.551e-05
+[51,] 613 0.20250 8.703e-05
+[52,] 634 0.20450 7.929e-05
+[53,] 650 0.20630 7.225e-05
+[54,] 665 0.20800 6.583e-05
+[55,] 679 0.20960 5.998e-05
+[56,] 687 0.21100 5.465e-05
+[57,] 708 0.21240 4.980e-05
+[58,] 712 0.21360 4.538e-05
+[59,] 724 0.21470 4.134e-05
+[60,] 732 0.21570 3.767e-05
+[61,] 744 0.21660 3.432e-05
+[62,] 751 0.21750 3.128e-05
+[63,] 759 0.21820 2.850e-05
+[64,] 767 0.21880 2.597e-05
+[65,] 772 0.21940 2.366e-05
+[66,] 780 0.21990 2.156e-05
+[67,] 783 0.22040 1.964e-05
+[68,] 793 0.22080 1.790e-05
+[69,] 791 0.22110 1.631e-05
+[70,] 799 0.22150 1.486e-05
+[71,] 805 0.22170 1.354e-05
+[72,] 808 0.22200 1.234e-05
+[73,] 811 0.22220 1.124e-05
+[74,] 812 0.22230 1.024e-05
+[75,] 819 0.22250 9.332e-06
+[76,] 820 0.22270 8.503e-06
+[77,] 820 0.22280 7.747e-06
+[78,] 826 0.22290 7.059e-06
+[79,] 830 0.22300 6.432e-06
+[80,] 833 0.22310 5.860e-06
+[81,] 833 0.22310 5.340e-06
+[82,] 832 0.22320 4.865e-06
+[83,] 835 0.22330 4.433e-06
+[84,] 835 0.22330 4.039e-06
+[85,] 835 0.22340 3.681e-06
+[86,] 839 0.22340 3.354e-06
+[87,] 837 0.22340 3.056e-06
+[88,] 844 0.22350 2.784e-06
+[89,] 841 0.22350 2.537e-06
+[90,] 844 0.22350 2.311e-06
+[91,] 841 0.22350 2.106e-06
+[92,] 847 0.22350 1.919e-06
+[93,] 847 0.22360 1.749e-06
+[94,] 846 0.22360 1.593e-06
+[95,] 848 0.22360 1.452e-06
+[96,] 848 0.22360 1.323e-06
+[97,] 846 0.22360 1.205e-06
+
+$lambda.min
+[1] 0.0005594092
+
+$lambda.1se
+[1] 0.0009775835
+
+attr(,"class")
+[1] "cv.glmnet"
+coef(cvfit, s=lambda.1se)
+864 x 1 sparse Matrix of class "dgCMatrix"
+                                                                               1
+(Intercept)                                                        -4.628638e+00
+Dist                                                                5.307696e-06
+LDBuddies                                                           2.144599e-01
+MAF                                                                -2.859108e+00
+MACS_FLI1_vs_rIgG_hg19_short.bed                                    .           
+MACS_GATA1_vs_rIgG_hg19_short.bed                                   .           
+MACS_GATA2_vs_rIgG_hg19_short.bed                                   .           
+MACS_RUNX1_vs_rIgG_hg19_short.bed                                   .           
+MACS_SCL_vs_rIgG_hg19_short.bed                                     5.548407e-01
+wgEncodeAwgTfbsBroadDnd41CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadDnd41Ezh239875UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadGm12878CtcfUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsBroadGm12878Ezh239875UniPk.narrowPeak                .           
+wgEncodeAwgTfbsBroadH1hescChd1a301218aUniPk.narrowPeak              .           
+wgEncodeAwgTfbsBroadH1hescCtcfUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsBroadH1hescEzh239875UniPk.narrowPeak                 1.263612e-01
+wgEncodeAwgTfbsBroadH1hescJarid1aab26049UniPk.narrowPeak            .           
+wgEncodeAwgTfbsBroadH1hescRbbp5a300109aUniPk.narrowPeak             .           
+wgEncodeAwgTfbsBroadHelas3CtcfUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsBroadHelas3Ezh239875UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsBroadHelas3Pol2bUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsBroadHepg2CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadHepg2Ezh239875UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadHmecCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadHmecEzh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadHsmmCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadHsmmEzh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadHsmmtCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadHsmmtEzh239875UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadHuvecCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadHuvecEzh239875UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadHuvecPol2bUniPk.narrowPeak                     -3.990517e-01
+wgEncodeAwgTfbsBroadK562Chd1a301218aUniPk.narrowPeak                .           
+wgEncodeAwgTfbsBroadK562CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadK562Ezh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadK562Hdac1sc6298UniPk.narrowPeak                -7.556654e-02
+wgEncodeAwgTfbsBroadK562Hdac2a300705aUniPk.narrowPeak               .           
+wgEncodeAwgTfbsBroadK562Hdac6a301341aUniPk.narrowPeak               .           
+wgEncodeAwgTfbsBroadK562P300UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadK562Phf8a301772aUniPk.narrowPeak                .           
+wgEncodeAwgTfbsBroadK562Plu1UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadK562Pol2bUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadK562Rbbp5a300109aUniPk.narrowPeak               .           
+wgEncodeAwgTfbsBroadK562Sap3039731UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadNhaCtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsBroadNhaEzh239875UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsBroadNhdfadCtcfUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsBroadNhdfadEzh239875UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsBroadNhekCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadNhekEzh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadNhekPol2bUniPk.narrowPeak                      -2.327674e-01
+wgEncodeAwgTfbsBroadNhlfCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadNhlfEzh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadOsteoblCtcfUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsHaibA549Atf3V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Bcl3V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Creb1sc240V0416102Dex100nmUniPk.narrowPeak   .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xDex100nmUniPk.narrowPeak      .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xEtoh02UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibA549Elf1V0422111Etoh02UniPk.narrowPeak          -3.339462e-01
+wgEncodeAwgTfbsHaibA549Ets1V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Fosl2V0422111Etoh02UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibA549Foxa1V0416102Dex100nmUniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibA549GabpV0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex500pmUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex50nmUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex5nmUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibA549GrPcr2xDex100nmUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibA549NrsfV0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549P300V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xDex100nmUniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xEtoh02UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibA549Sin3ak20V0422111Etoh02UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibA549Six5V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Taf1V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Tcf12V0422111Etoh02UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xDex100nmUniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xEtoh02UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibA549Usf1V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Yy1cV0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Zbtb33V0422111Etoh02UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibEcc1CtcfcV0416102Dm002p1hUniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibEcc1EraaV0416102Bpa1hUniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Est10nm1hUniPk.narrowPeak    .           
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Gen1hUniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibEcc1Foxa1sc6553V0416102Dm002p1hUniPk.narrowPeak  .           
+wgEncodeAwgTfbsHaibEcc1GrV0416102Dex100nmUniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibEcc1Pol2V0416102Dm002p1hUniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibGm12878Atf2sc81188V0422111UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12878Atf3Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878BatfPcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Bcl11aPcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12878Bcl3V0416101UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12878Bclaf101388V0416101UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12878Cebpbsc150V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibGm12878Ebf1sc137065Pcr1xUniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibGm12878Egr1Pcr2xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Elf1sc631V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibGm12878Ets1Pcr1xUniPk.narrowPeak                -4.190229e-01
+wgEncodeAwgTfbsHaibGm12878Foxm1sc502V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibGm12878GabpPcr2xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Irf4sc6059Pcr1xUniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12878Mef2aPcr1xUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibGm12878Mef2csc13268V0416101UniPk.narrowPeak      .           
+wgEncodeAwgTfbsHaibGm12878Mta3sc81325V0422111UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12878Nfatc1sc17834V0422111UniPk.narrowPeak     .           
+wgEncodeAwgTfbsHaibGm12878Nficsc81335V0422111UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12878NrsfPcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878P300Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Pax5c20Pcr1xUniPk.narrowPeak             -6.507863e-02
+wgEncodeAwgTfbsHaibGm12878Pax5n19Pcr1xUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12878Pbx3Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Pmlsc71910V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibGm12878Pol24h8Pcr1xUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12878Pol2Pcr2xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Pou2f2Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12878Pu1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibGm12878Rad21V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibGm12878Runx3sc101553V0422111UniPk.narrowPeak     .           
+wgEncodeAwgTfbsHaibGm12878RxraPcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Six5Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Sp1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibGm12878SrfPcr2xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibGm12878Stat5asc74442V0422111UniPk.narrowPeak     .           
+wgEncodeAwgTfbsHaibGm12878Taf1Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Tcf12Pcr1xUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibGm12878Tcf3Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Usf1Pcr2xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Yy1sc281Pcr1xUniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibGm12878Zbtb33Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12878Zeb1sc25388V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12891Pax5c20V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12891Pol24h8Pcr1xUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12891Pol2Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12891Pou2f2Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12891Pu1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibGm12891Taf1Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12891Yy1sc281V0416101UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibGm12892Pax5c20V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12892Pol24h8V0416102UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12892Pol2V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12892Taf1V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12892Yy1V0416101UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescAtf2sc81188V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibH1hescAtf3V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescBcl11aPcr1xUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibH1hescCtcfsc5916V0416102UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibH1hescEgr1V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescFosl1sc183V0416102UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibH1hescGabpPcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibH1hescHdac2sc6296V0416102UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibH1hescJundV0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescNanogsc33759V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibH1hescNrsfV0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescP300V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescPol24h8V0416102UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibH1hescPol2V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescPou5f1sc9081V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibH1hescRad21V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibH1hescRxraV0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescSin3ak20Pcr1xUniPk.narrowPeak             -4.943033e-02
+wgEncodeAwgTfbsHaibH1hescSix5Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibH1hescSp1Pcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibH1hescSp2V0422111UniPk.narrowPeak               -3.294378e-01
+wgEncodeAwgTfbsHaibH1hescSp4v20V0422111UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibH1hescSrfPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibH1hescTaf1V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescTaf7sc101167V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibH1hescTcf12Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibH1hescTead4sc101184V0422111UniPk.narrowPeak      .           
+wgEncodeAwgTfbsHaibH1hescUsf1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibH1hescYy1sc281V0416102UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibHct116Pol24h8V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibHct116Yy1sc281V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibHct116Zbtb33V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibHelas3GabpPcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHelas3NrsfPcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHelas3Pol2Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHelas3Taf1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHepg2Atf3V0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibHepg2Bhlhe40V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibHepg2Cebpbsc150V0416101UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibHepg2Cebpdsc636V0416101UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibHepg2Ctcfsc5916V0416101UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibHepg2Elf1sc631V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibHepg2Fosl2V0416101UniPk.narrowPeak              -1.821914e-01
+wgEncodeAwgTfbsHaibHepg2Foxa1sc101058V0416101UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibHepg2Foxa1sc6553V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2Foxa2sc6554V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2GabpPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Hdac2sc6296V0416101UniPk.narrowPeak         2.172480e-01
+wgEncodeAwgTfbsHaibHepg2Hnf4asc8987V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2Hnf4gsc6558V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2JundPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Mbd4sc271530V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibHepg2Mybl2sc81192V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibHepg2Nficsc81335V0422111UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2NrsfPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2NrsfV0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibHepg2P300V0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibHepg2Pol24h8V0416102UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibHepg2Pol2Pcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Rad21V0416101UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibHepg2RxraPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Sin3ak20Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibHepg2Sp1Pcr1xUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsHaibHepg2Sp2V0422111UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibHepg2SrfV0416101UniPk.narrowPeak                 5.056356e-01
+wgEncodeAwgTfbsHaibHepg2Taf1Pcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Tcf12Pcr1xUniPk.narrowPeak                  1.089371e-01
+wgEncodeAwgTfbsHaibHepg2Tead4sc101184V0422111UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibHepg2Usf1Pcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Yy1sc281V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibHepg2Zbtb33Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibHepg2Zbtb7aV0416101UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibHuvecPol24h8V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibHuvecPol2Pcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibK562Atf3V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Bcl3Pcr1xUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsHaibK562Bclaf101388Pcr1xUniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibK562Cbx3sc101004V0422111UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibK562Cebpbsc150V0422111UniPk.narrowPeak           1.237783e-01
+wgEncodeAwgTfbsHaibK562CtcfcPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibK562Ctcflsc98982V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibK562E2f6V0416102UniPk.narrowPeak                 2.131405e-01
+wgEncodeAwgTfbsHaibK562Egr1V0416101UniPk.narrowPeak                 1.466207e-01
+wgEncodeAwgTfbsHaibK562Elf1sc631V0416102UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibK562Ets1V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Fosl1sc183V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibK562GabpV0416101UniPk.narrowPeak                 3.429833e-01
+wgEncodeAwgTfbsHaibK562Gata2sc267Pcr1xUniPk.narrowPeak              2.247932e-01
+wgEncodeAwgTfbsHaibK562Hdac2sc6296V0416102UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibK562MaxV0416102UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibK562Mef2aV0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibK562Nr2f2sc271940V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562NrsfV0416102UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Pmlsc71910V0422111UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibK562Pol24h8V0416101UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibK562Pol2V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Pu1Pcr1xUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsHaibK562Rad21V0416102UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibK562Sin3ak20V0416101UniPk.narrowPeak             2.841966e-01
+wgEncodeAwgTfbsHaibK562Six5Pcr1xUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsHaibK562Sp1Pcr1xUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsHaibK562Sp2sc643V0416102UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibK562SrfV0416101UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibK562Stat5asc74442V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562Taf1V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Taf7sc101167V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibK562Tead4sc101184V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562Thap1sc98174V0416101UniPk.narrowPeak        -3.576599e-01
+wgEncodeAwgTfbsHaibK562Trim28sc81411V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562Usf1V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Yy1V0416101UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibK562Yy1V0416102UniPk.narrowPeak                 -5.713060e-03
+wgEncodeAwgTfbsHaibK562Zbtb33Pcr1xUniPk.narrowPeak                  3.414371e-01
+wgEncodeAwgTfbsHaibK562Zbtb7asc34508V0416101UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibPanc1NrsfPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibPanc1Pol24h8V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibPanc1Sin3ak20V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibPfsk1Foxp2Pcr2xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibPfsk1NrsfPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibPfsk1Sin3ak20V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibPfsk1Taf1V0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibSknmcFoxp2Pcr2xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibSknmcPol24h8V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibSknshNrsfPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibSknshNrsfV0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibSknshPol24h8V0416101UniPk.narrowPeak            -4.691957e-01
+wgEncodeAwgTfbsHaibSknshraCtcfV0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibSknshraP300V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibSknshraRad21V0416102UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibSknshraUsf1sc8983V0416102UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibSknshraYy1sc281V0416102UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibSknshSin3ak20V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibSknshTaf1V0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibT47dCtcfsc5916V0416102Dm002p1hUniPk.narrowPeak   .           
+wgEncodeAwgTfbsHaibT47dEraaV0416102Bpa1hUniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibT47dEralphaaPcr2xGen1hUniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibT47dEralphaaV0416102Est10nm1hUniPk.narrowPeak    .           
+wgEncodeAwgTfbsHaibT47dFoxa1sc6553V0416102Dm002p1hUniPk.narrowPeak  .           
+wgEncodeAwgTfbsHaibT47dGata3sc268V0416102Dm002p1hUniPk.narrowPeak   .           
+wgEncodeAwgTfbsHaibT47dP300V0416102Dm002p1hUniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibU87NrsfPcr2xUniPk.narrowPeak                    -3.094510e-01
+wgEncodeAwgTfbsHaibU87Pol24h8V0416101UniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhA549Bhlhe40IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhA549CebpbIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhA549MaxIggrabUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhA549Pol2s2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhA549Rad21IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhGm08714Znf274UcdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhGm10847NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm10847Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Bhlhe40cIggmusUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878Brca1a300IggmusUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhGm12878CfosUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878Chd1a301218aIggmusUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhGm12878Chd2ab68301IggmusUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhGm12878Corestsc30189IggmusUniPk.narrowPeak       .           
+wgEncodeAwgTfbsSydhGm12878Ctcfsc15914c20UniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878E2f4IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Ebf1sc137065UniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhGm12878Elk112771IggmusUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhGm12878Ikzf1iknuclaUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhGm12878JundUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878MaxIggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhGm12878Mazab85725IggmusUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhGm12878Mxi1IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Nfe2sc22827UniPk.narrowPeak               8.190830e-01
+wgEncodeAwgTfbsSydhGm12878NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878NfyaIggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878NfybIggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Nrf1IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878P300bUniPk.narrowPeak                     2.717223e-03
+wgEncodeAwgTfbsSydhGm12878P300IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Pol2s2IggmusUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhGm12878Pol2UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878Pol3UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878Rad21IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhGm12878Rfx5200401194IggmusUniPk.narrowPeak       .           
+wgEncodeAwgTfbsSydhGm12878Sin3anb6001263IggmusUniPk.narrowPeak      .           
+wgEncodeAwgTfbsSydhGm12878Smc3ab9263IggmusUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhGm12878Stat1UniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhGm12878Stat3IggmusUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhGm12878Tblr1ab24550IggmusUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhGm12878TbpIggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhGm12878Tr4UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhGm12878Usf2IggmusUniPk.narrowPeak                1.804224e-02
+wgEncodeAwgTfbsSydhGm12878WhipIggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Yy1UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhGm12878Znf143166181apUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878Znf274UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhGm12878Zzz3UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12891NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12891Pol2IggmusUniPk.narrowPeak               -6.286599e-02
+wgEncodeAwgTfbsSydhGm12892NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12892Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm15510NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm15510Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm18505NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm18505Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm18526NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm18526Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm18951NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm18951Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm19099NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm19099Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm19193NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm19193Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescBach1sc14700IggrabUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhH1hescBrca1IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescCebpbIggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescChd1a301218aIggrabUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhH1hescChd2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescCjunIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescCmycIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescCtbp2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhH1hescGtf2f1IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhH1hescJundIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescMafkIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescMaxUcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhH1hescMxi1IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescNrf1IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescRad21IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescRfx5200401194IggrabUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhH1hescSin3anb6001263IggrabUniPk.narrowPeak       .           
+wgEncodeAwgTfbsSydhH1hescSuz12UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhH1hescTbpIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhH1hescUsf2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescZnf143IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHct116Pol2UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHct116Tcf7l2UcdUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHek293Elk4UcdUniPk.narrowPeak                   -1.472731e-01
+wgEncodeAwgTfbsSydhHek293Kap1UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHek293Pol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHek293Tcf7l2UcdUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHek293tZnf263UcdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3Ap2alphaUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHelas3Ap2gammaUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHelas3Baf155IggmusUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Baf170IggmusUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Bdp1UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Brca1a300IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHelas3Brf1UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Brf2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Brg1IggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3CebpbIggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3CfosUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Chd2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3CjunIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3CmycUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Corestsc30189IggrabUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhHelas3E2f1UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3E2f4UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3E2f6UniPk.narrowPeak                       2.532456e-02
+wgEncodeAwgTfbsSydhHelas3Elk112771IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHelas3Elk4UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHelas3Gtf2f1ab28179IggrabUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhHelas3Hae2f1UniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhHelas3Ini1IggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3Irf3IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3JundIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3MafkIggrabUniPk.narrowPeak                -4.392531e-02
+wgEncodeAwgTfbsSydhHelas3MaxIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHelas3Mazab85725IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHelas3Mxi1af4185IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHelas3NfyaIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3NfybIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3Nrf1IggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3P300sc584sc584IggrabUniPk.narrowPeak       .           
+wgEncodeAwgTfbsSydhHelas3Pol2s2IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Pol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Prdm19115IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHelas3Rad21IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3Rfx5200401194IggrabUniPk.narrowPeak       -2.296608e-02
+wgEncodeAwgTfbsSydhHelas3Rpc155UniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhHelas3Smc3ab9263IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHelas3Spt20UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhHelas3Stat1Ifng30UniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3Stat3IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3TbpIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHelas3Tcf7l2c9b92565UcdUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhHelas3Tcf7l2UcdUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHelas3Tf3c110UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHelas3Tr4UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhHelas3Usf2IggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3Zkscan1hpa006672IggrabUniPk.narrowPeak     .           
+wgEncodeAwgTfbsSydhHelas3Znf143IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Znf274UcdUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHelas3Zzz3UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHepg2Arid3anb100279IggrabUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhHepg2Bhlhe40cIggrabUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhHepg2Brca1a300IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhHepg2CebpbForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2CebpbIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Chd2ab68301IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHepg2CjunIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Corestsc30189IggrabUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhHepg2ErraForsklnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Grp20ForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Hnf4aForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Hsf1ForsklnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Irf3IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2JundIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Maffm8194IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhHepg2Mafkab50322IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHepg2Mafksc477IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhHepg2MaxIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHepg2Mazab85725IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHepg2Mxi1UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhHepg2Nrf1IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2P300sc582IggrabUniPk.narrowPeak            -2.450098e-01
+wgEncodeAwgTfbsSydhHepg2Pgc1aForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Pol2ForsklnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Pol2IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Pol2s2IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Rad21IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Rfx5200401194IggrabUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhHepg2Smc3ab9263IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHepg2Srebp1InslnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2TbpIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHepg2Tcf7l2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHepg2Tr4UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhHepg2Usf2IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Znf274UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHuvecCfosUcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhHuvecCjunUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhHuvecGata2UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHuvecMaxUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhHuvecPol2UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhImr90CebpbIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhImr90CtcfbIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhImr90MafkIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhImr90Pol2IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhImr90Rad21IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhK562Arid3asc8821IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhK562Atf106325UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhK562Atf3UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Bach1sc14700IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhK562Bdp1UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Bhlhe40nb100IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhK562Brf1UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Brf2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Brg1IggmusUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Ccnt2UniPk.narrowPeak                        4.034078e-01
+wgEncodeAwgTfbsSydhK562CebpbIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562CfosUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Chd2ab68301IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhK562CjunIfna30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CjunIfna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CjunIfng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CjunIfng6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CjunUniPk.narrowPeak                        -1.183566e-01
+wgEncodeAwgTfbsSydhK562CmycIfna30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIfna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Corestab24166IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562Corestsc30189IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562CtcfbIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562E2f4UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562E2f6UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562Elk112771IggrabUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhK562Gata1UcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhK562Gata2UcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhK562Gtf2bUniPk.narrowPeak                        6.109274e-01
+wgEncodeAwgTfbsSydhK562Gtf2f1ab28179IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562Hmgn3UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Ini1IggmusUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifna30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562JundIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Kap1UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562MaffIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Mafkab50322IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhK562MaxIggrabUniPk.narrowPeak                    1.264387e-01
+wgEncodeAwgTfbsSydhK562Mazab85725IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhK562Mxi1af4185IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhK562NelfeUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Nfe2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562NfyaUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562NfybUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Nrf1IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562P300IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifng6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2IggmusUniPk.narrowPeak                   3.030097e-02
+wgEncodeAwgTfbsSydhK562Pol2s2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhK562Pol2s2UniPk.narrowPeak                       2.505746e-01
+wgEncodeAwgTfbsSydhK562Pol2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Pol3UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Rad21UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Rfx5IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Rpc155UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhK562Setdb1MnasedUcdUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhK562Setdb1UcdUniPk.narrowPeak                   -2.408213e-01
+wgEncodeAwgTfbsSydhK562Sirt6UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Smc3ab9263IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhK562Stat1Ifna30UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifna6hUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng30UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng6hUniPk.narrowPeak                  3.170019e-01
+wgEncodeAwgTfbsSydhK562Stat2Ifna30UniPk.narrowPeak                 -2.615775e-01
+wgEncodeAwgTfbsSydhK562Stat2Ifna6hUniPk.narrowPeak                 -6.251590e-01
+wgEncodeAwgTfbsSydhK562Tal1sc12984IggmusUniPk.narrowPeak            5.875115e-01
+wgEncodeAwgTfbsSydhK562Tblr1ab24550IggrabUniPk.narrowPeak           2.612990e-02
+wgEncodeAwgTfbsSydhK562Tblr1nb600270IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562TbpIggmusUniPk.narrowPeak                    7.373503e-02
+wgEncodeAwgTfbsSydhK562Tf3c110UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562Tr4UcdUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhK562Ubfsc13125IggmusUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhK562Ubtfsab1404509IggmusUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhK562Usf2IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Yy1UcdUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhK562Znf143IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhK562Znf263UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhK562Znf274m01UcdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhK562Znf274UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhMcf10aesCfosEtoh01HvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam112hHvdUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam14hHvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTamHvdUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhMcf10aesCmycEtoh01HvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesCmycTam14hHvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesE2f4TamHvdUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhMcf10aesPol2Etoh01UniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhMcf10aesPol2TamUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01bUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01cUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01UniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Tam112hHvdUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhMcf10aesStat3TamUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhMcf7Gata3sc269UcdUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhMcf7Gata3UcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhMcf7Hae2f1UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhMcf7Tcf7l2UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhMcf7Znf217UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhNb4CmycUniPk.narrowPeak                          3.130518e-01
+wgEncodeAwgTfbsSydhNb4MaxUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsSydhNb4Pol2UniPk.narrowPeak                          .           
+wgEncodeAwgTfbsSydhNt2d1Suz12UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhNt2d1Yy1UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhNt2d1Znf274UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhPanc1Tcf7l2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhPbdefetalGata1UcdUniPk.narrowPeak                7.580597e-01
+wgEncodeAwgTfbsSydhPbdeGata1UcdUniPk.narrowPeak                     8.922770e-01
+wgEncodeAwgTfbsSydhPbdePol2UcdUniPk.narrowPeak                      4.501214e-01
+wgEncodeAwgTfbsSydhRajiPol2UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhShsy5yGata2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhShsy5yGata3sc269sc269UcdUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhU2osKap1UcdUniPk.narrowPeak                     -2.577060e-01
+wgEncodeAwgTfbsSydhU2osSetdb1UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsUchicagoK562EfosUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsUchicagoK562Egata2UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsUchicagoK562Ehdac8UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsUchicagoK562EjunbUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsUchicagoK562EjundUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsUtaA549CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaA549Pol2UniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaFibroblCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGlioblaCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGlioblaPol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12878CmycUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12878CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12878Pol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12891CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12892CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm19238CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm19239CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm19240CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaH1hescCmycUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaH1hescCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaH1hescPol2UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHelas3CmycUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHelas3CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHelas3Pol2UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHepg2CmycUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHepg2CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHepg2Pol2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHuvecCmycUniPk.narrowPeak                        -4.501448e-01
+wgEncodeAwgTfbsUtaHuvecCtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHuvecPol2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaK562CmycUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaK562CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaK562Pol2UniPk.narrowPeak                          1.237656e-02
+wgEncodeAwgTfbsUtaMcf7CmycEstroUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsUtaMcf7CmycSerumstimUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7CmycSerumstvdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7CmycVehUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaMcf7CtcfEstroUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstimUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstvdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaMcf7CtcfVehUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstimUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstvdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2UniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaNhekCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaProgfibCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaProgfibPol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUwA549CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwAg04449CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg04450CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg09309CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg09319CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg10803CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAoafCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwBe2cCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwBjCtcfUniPk.narrowPeak                             .           
+wgEncodeAwgTfbsUwCaco2CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwGm06990CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12801CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12864CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12865CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12872CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12873CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12874CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12875CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12878CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwHacCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHaspCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHbmecCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHcfaaCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHcmCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHcpeCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHct116CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHeeCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHek293CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHelas3CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHepg2CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHffCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHffmycCtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHl60CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHmecCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHmfCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHpafCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHpfCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHreCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHrpeCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHuvecCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHvmfCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwK562CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwMcf7CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwNb4CtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwNhdfneoCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwNhekCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwNhlfCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwRptecCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwSaecCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwSknshraCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwWerirb1CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwWi38CtcfUniPk.narrowPeak                           .           
+wgEncodeBroadHistoneGm12878CtcfStdPk.broadPeak                      .           
+wgEncodeBroadHistoneGm12878H2azStdPk.broadPeak                      .           
+wgEncodeBroadHistoneGm12878H3k04me1StdPkV2.broadPeak                9.892547e-03
+wgEncodeBroadHistoneGm12878H3k04me3StdPkV2.broadPeak                .           
+wgEncodeBroadHistoneGm12878H3k27acStdPk.broadPeak                   1.061748e-01
+wgEncodeBroadHistoneGm12878H3k27me3StdPk.broadPeak                  .           
+wgEncodeBroadHistoneGm12878H3k27me3StdPkV2.broadPeak                .           
+wgEncodeBroadHistoneGm12878H3k36me3StdPk.broadPeak                  .           
+wgEncodeBroadHistoneGm12878H3k4me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneGm12878H3k4me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneGm12878H3k79me2StdPk.broadPeak                  .           
+wgEncodeBroadHistoneGm12878H3k9acStdPk.broadPeak                    7.879958e-04
+wgEncodeBroadHistoneGm12878H3k9me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneGm12878H4k20me1StdPk.broadPeak                  .           
+wgEncodeBroadHistoneH1hescChd1a301218aStdPk.broadPeak               .           
+wgEncodeBroadHistoneH1hescCtcfStdPk.broadPeak                       .           
+wgEncodeBroadHistoneH1hescH2azStdPk.broadPeak                       .           
+wgEncodeBroadHistoneH1hescH3k09me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescH3k27acStdPk.broadPeak                    .           
+wgEncodeBroadHistoneH1hescH3k27me3StdPk.broadPeak                   3.001934e-02
+wgEncodeBroadHistoneH1hescH3k36me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescH3k4me1StdPk.broadPeak                    .           
+wgEncodeBroadHistoneH1hescH3k4me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneH1hescH3k4me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneH1hescH3k79me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescH3k9acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneH1hescH4k20me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescJarid1aab26049StdPk.broadPeak             .           
+wgEncodeBroadHistoneH1hescRbbp5a300109aStdPk.broadPeak              .           
+wgEncodeBroadHistoneHelas3CtcfStdPk.broadPeak                       .           
+wgEncodeBroadHistoneHelas3H3k04me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3H3k27acStdPk.broadPeak                    .           
+wgEncodeBroadHistoneHelas3H3k27me3StdPk.broadPeak                  -1.730620e-02
+wgEncodeBroadHistoneHelas3H3k36me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3H3k4me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHelas3H3k4me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHelas3H3k79me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3H3k9acStdPk.broadPeak                     6.208522e-02
+wgEncodeBroadHistoneHelas3H4k20me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3Pol2bStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHepg2CtcfStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHepg2H2azStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHepg2H3k04me1StdPk.broadPeak                    3.183157e-01
+wgEncodeBroadHistoneHepg2H3k27acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneHepg2H3k27me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHepg2H3k36me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHepg2H3k4me2StdPk.broadPeak                     9.396514e-03
+wgEncodeBroadHistoneHepg2H3k4me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHepg2H3k79me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHepg2H3k9acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHepg2H4k20me1StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHmecCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneHmecH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHmecH3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHmecH3k36me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHmecH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHmecH3k4me2StdPk.broadPeak                      4.655477e-02
+wgEncodeBroadHistoneHmecH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHmecH3k9acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneHmecH4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneHsmmH2azStdPk.broadPeak                         .           
+wgEncodeBroadHistoneHsmmH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmH3k36me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k79me2StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmH3k9acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneHsmmH3k9me3StdPk.broadPeak                     -3.219271e-02
+wgEncodeBroadHistoneHsmmH4k20me1StdPk.broadPeak                     3.907549e-03
+wgEncodeBroadHistoneHsmmtCtcfStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHsmmtH2azStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHsmmtH3k27acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmtH3k36me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHsmmtH3k4me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmtH3k4me2StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmtH3k4me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmtH3k79me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHsmmtH3k9acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmtH4k20me1StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHuvecCtcfStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHuvecH3k27acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k27me3StdPk.broadPeak                    1.486857e-02
+wgEncodeBroadHistoneHuvecH3k36me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHuvecH3k4me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k4me2StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k4me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k9acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHuvecH3k9me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH4k20me1StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHuvecPol2bStdPk.broadPeak                       .           
+wgEncodeBroadHistoneK562Chd1a301218aStdPk.broadPeak                 .           
+wgEncodeBroadHistoneK562CtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneK562Ezh239875StdPk.broadPeak                    .           
+wgEncodeBroadHistoneK562H2azStdPk.broadPeak                         .           
+wgEncodeBroadHistoneK562H3k27acStdPk.broadPeak                      2.041581e-01
+wgEncodeBroadHistoneK562H3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneK562H3k36me3StdPk.broadPeak                     2.179150e-01
+wgEncodeBroadHistoneK562H3k4me1StdPk.broadPeak                      3.640038e-01
+wgEncodeBroadHistoneK562H3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H3k79me2StdPk.broadPeak                     .           
+wgEncodeBroadHistoneK562H3k9acStdPk.broadPeak                       1.187767e-02
+wgEncodeBroadHistoneK562H3k9me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H3k9me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneK562Hdac1sc6298StdPk.broadPeak                  2.093686e-04
+wgEncodeBroadHistoneK562Hdac2a300705aStdPk.broadPeak                1.821802e-01
+wgEncodeBroadHistoneK562P300StdPk.broadPeak                         .           
+wgEncodeBroadHistoneK562Phf8a301772aStdPk.broadPeak                 .           
+wgEncodeBroadHistoneK562Plu1StdPk.broadPeak                         8.826466e-02
+wgEncodeBroadHistoneK562Pol2bStdPk.broadPeak                        2.378623e-01
+wgEncodeBroadHistoneK562Rbbp5a300109aStdPk.broadPeak                .           
+wgEncodeBroadHistoneK562Sap3039731StdPk.broadPeak                   .           
+wgEncodeBroadHistoneNhaCtcfStdPk.broadPeak                         -5.823127e-02
+wgEncodeBroadHistoneNhaH3k27acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhaH3k27me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhaH3k36me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhaH3k4me1StdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhaH3k4me3StdPk.broadPeak                      -6.046763e-02
+wgEncodeBroadHistoneNhdfadCtcfStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhdfadH3k27acStdPk.broadPeak                    .           
+wgEncodeBroadHistoneNhdfadH3k27me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneNhdfadH3k36me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneNhdfadH3k4me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneNhdfadH3k4me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneNhdfadH3k9acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneNhekH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekH3k36me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k9acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhekH3k9me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekPol2bStdPk.broadPeak                        .           
+wgEncodeBroadHistoneNhlfCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneNhlfH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k27me3StdPk.broadPeak                     9.615692e-02
+wgEncodeBroadHistoneNhlfH3k36me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhlfH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k9acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhlfH4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneOsteoblCtcfStdPk.broadPeak                      .           
+wgEncodeBroadHistoneOsteoblH2azStdPk.broadPeak                      .           
+wgEncodeBroadHistoneOsteoblH3k27acStdPk.broadPeak                   .           
+wgEncodeBroadHistoneOsteoblH3k36me3StdPk.broadPeak                  .           
+wgEncodeBroadHistoneOsteoblH3k4me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneOsteoblH3k4me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneOsteoblH3k9me3StdPk.broadPeak                  -4.014466e-01
+wgEncodeBroadHmmGm12878HMM.bed                                      .           
+wgEncodeBroadHmmH1hescHMM.bed                                       .           
+wgEncodeBroadHmmHepg2HMM.bed                                        .           
+wgEncodeBroadHmmHmecHMM.bed                                         .           
+wgEncodeBroadHmmHsmmHMM.bed                                         .           
+wgEncodeBroadHmmHuvecHMM.bed                                        .           
+wgEncodeBroadHmmK562HMM.bed                                         .           
+wgEncodeBroadHmmNhekHMM.bed                                         .           
+wgEncodeBroadHmmNhlfHMM.bed                                         .           
+coef(cvfit, s=lambda.min)
+864 x 1 sparse Matrix of class "dgCMatrix"
+                                                                               1
+(Intercept)                                                        -4.664209e+00
+Dist                                                                5.659265e-06
+LDBuddies                                                           2.171193e-01
+MAF                                                                -2.846073e+00
+MACS_FLI1_vs_rIgG_hg19_short.bed                                   -1.267085e-01
+MACS_GATA1_vs_rIgG_hg19_short.bed                                   .           
+MACS_GATA2_vs_rIgG_hg19_short.bed                                   .           
+MACS_RUNX1_vs_rIgG_hg19_short.bed                                   .           
+MACS_SCL_vs_rIgG_hg19_short.bed                                     6.277362e-01
+wgEncodeAwgTfbsBroadDnd41CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadDnd41Ezh239875UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadGm12878CtcfUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsBroadGm12878Ezh239875UniPk.narrowPeak                .           
+wgEncodeAwgTfbsBroadH1hescChd1a301218aUniPk.narrowPeak              .           
+wgEncodeAwgTfbsBroadH1hescCtcfUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsBroadH1hescEzh239875UniPk.narrowPeak                 4.096953e-01
+wgEncodeAwgTfbsBroadH1hescJarid1aab26049UniPk.narrowPeak            .           
+wgEncodeAwgTfbsBroadH1hescRbbp5a300109aUniPk.narrowPeak             .           
+wgEncodeAwgTfbsBroadHelas3CtcfUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsBroadHelas3Ezh239875UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsBroadHelas3Pol2bUniPk.narrowPeak                    -2.000038e-01
+wgEncodeAwgTfbsBroadHepg2CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadHepg2Ezh239875UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadHmecCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadHmecEzh239875UniPk.narrowPeak                   3.228750e-01
+wgEncodeAwgTfbsBroadHsmmCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadHsmmEzh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadHsmmtCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadHsmmtEzh239875UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsBroadHuvecCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadHuvecEzh239875UniPk.narrowPeak                  1.163856e-01
+wgEncodeAwgTfbsBroadHuvecPol2bUniPk.narrowPeak                     -4.889347e-01
+wgEncodeAwgTfbsBroadK562Chd1a301218aUniPk.narrowPeak                .           
+wgEncodeAwgTfbsBroadK562CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadK562Ezh239875UniPk.narrowPeak                  -3.140289e-02
+wgEncodeAwgTfbsBroadK562Hdac1sc6298UniPk.narrowPeak                -2.279125e-01
+wgEncodeAwgTfbsBroadK562Hdac2a300705aUniPk.narrowPeak               .           
+wgEncodeAwgTfbsBroadK562Hdac6a301341aUniPk.narrowPeak              -2.096422e-01
+wgEncodeAwgTfbsBroadK562P300UniPk.narrowPeak                       -2.120783e-01
+wgEncodeAwgTfbsBroadK562Phf8a301772aUniPk.narrowPeak                .           
+wgEncodeAwgTfbsBroadK562Plu1UniPk.narrowPeak                       -1.236873e-01
+wgEncodeAwgTfbsBroadK562Pol2bUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsBroadK562Rbbp5a300109aUniPk.narrowPeak              -3.882589e-02
+wgEncodeAwgTfbsBroadK562Sap3039731UniPk.narrowPeak                  4.005077e-02
+wgEncodeAwgTfbsBroadNhaCtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsBroadNhaEzh239875UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsBroadNhdfadCtcfUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsBroadNhdfadEzh239875UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsBroadNhekCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadNhekEzh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadNhekPol2bUniPk.narrowPeak                      -5.492891e-01
+wgEncodeAwgTfbsBroadNhlfCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsBroadNhlfEzh239875UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsBroadOsteoblCtcfUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsHaibA549Atf3V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Bcl3V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Creb1sc240V0416102Dex100nmUniPk.narrowPeak   .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xDex100nmUniPk.narrowPeak      .           
+wgEncodeAwgTfbsHaibA549Ctcfsc5916Pcr1xEtoh02UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibA549Elf1V0422111Etoh02UniPk.narrowPeak          -5.328363e-01
+wgEncodeAwgTfbsHaibA549Ets1V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Fosl2V0422111Etoh02UniPk.narrowPeak         -2.991361e-02
+wgEncodeAwgTfbsHaibA549Foxa1V0416102Dex100nmUniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibA549GabpV0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex500pmUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex50nmUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibA549GrPcr1xDex5nmUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibA549GrPcr2xDex100nmUniPk.narrowPeak             -6.641864e-02
+wgEncodeAwgTfbsHaibA549NrsfV0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549P300V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xDex100nmUniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibA549Pol2Pcr2xEtoh02UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibA549Sin3ak20V0422111Etoh02UniPk.narrowPeak       5.973106e-01
+wgEncodeAwgTfbsHaibA549Six5V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Taf1V0422111Etoh02UniPk.narrowPeak          -1.981729e-01
+wgEncodeAwgTfbsHaibA549Tcf12V0422111Etoh02UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xDex100nmUniPk.narrowPeak           -1.801729e-01
+wgEncodeAwgTfbsHaibA549Usf1Pcr1xEtoh02UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibA549Usf1V0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Yy1cV0422111Etoh02UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibA549Zbtb33V0422111Etoh02UniPk.narrowPeak        -1.999918e-01
+wgEncodeAwgTfbsHaibEcc1CtcfcV0416102Dm002p1hUniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibEcc1EraaV0416102Bpa1hUniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Est10nm1hUniPk.narrowPeak    .           
+wgEncodeAwgTfbsHaibEcc1EralphaaV0416102Gen1hUniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibEcc1Foxa1sc6553V0416102Dm002p1hUniPk.narrowPeak  .           
+wgEncodeAwgTfbsHaibEcc1GrV0416102Dex100nmUniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibEcc1Pol2V0416102Dm002p1hUniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibGm12878Atf2sc81188V0422111UniPk.narrowPeak      -1.443714e-01
+wgEncodeAwgTfbsHaibGm12878Atf3Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878BatfPcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Bcl11aPcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12878Bcl3V0416101UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12878Bclaf101388V0416101UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12878Cebpbsc150V0422111UniPk.narrowPeak        1.984587e-01
+wgEncodeAwgTfbsHaibGm12878Ebf1sc137065Pcr1xUniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibGm12878Egr1Pcr2xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Elf1sc631V0416101UniPk.narrowPeak        -5.901564e-02
+wgEncodeAwgTfbsHaibGm12878Ets1Pcr1xUniPk.narrowPeak                -5.728535e-01
+wgEncodeAwgTfbsHaibGm12878Foxm1sc502V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibGm12878GabpPcr2xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Irf4sc6059Pcr1xUniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12878Mef2aPcr1xUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibGm12878Mef2csc13268V0416101UniPk.narrowPeak      3.011086e-01
+wgEncodeAwgTfbsHaibGm12878Mta3sc81325V0422111UniPk.narrowPeak      -9.237901e-02
+wgEncodeAwgTfbsHaibGm12878Nfatc1sc17834V0422111UniPk.narrowPeak     .           
+wgEncodeAwgTfbsHaibGm12878Nficsc81335V0422111UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12878NrsfPcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878P300Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Pax5c20Pcr1xUniPk.narrowPeak             -2.947521e-01
+wgEncodeAwgTfbsHaibGm12878Pax5n19Pcr1xUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12878Pbx3Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Pmlsc71910V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibGm12878Pol24h8Pcr1xUniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12878Pol2Pcr2xUniPk.narrowPeak                 2.053649e-01
+wgEncodeAwgTfbsHaibGm12878Pou2f2Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12878Pu1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibGm12878Rad21V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibGm12878Runx3sc101553V0422111UniPk.narrowPeak     3.613747e-02
+wgEncodeAwgTfbsHaibGm12878RxraPcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Six5Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Sp1Pcr1xUniPk.narrowPeak                 -1.998149e-01
+wgEncodeAwgTfbsHaibGm12878SrfPcr2xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibGm12878Stat5asc74442V0422111UniPk.narrowPeak     .           
+wgEncodeAwgTfbsHaibGm12878Taf1Pcr1xUniPk.narrowPeak                 8.332355e-02
+wgEncodeAwgTfbsHaibGm12878Tcf12Pcr1xUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibGm12878Tcf3Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Usf1Pcr2xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12878Yy1sc281Pcr1xUniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibGm12878Zbtb33Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12878Zeb1sc25388V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibGm12891Pax5c20V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12891Pol24h8Pcr1xUniPk.narrowPeak             -3.162395e-02
+wgEncodeAwgTfbsHaibGm12891Pol2Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibGm12891Pou2f2Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibGm12891Pu1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibGm12891Taf1Pcr1xUniPk.narrowPeak                -5.056049e-02
+wgEncodeAwgTfbsHaibGm12891Yy1sc281V0416101UniPk.narrowPeak          8.589477e-03
+wgEncodeAwgTfbsHaibGm12892Pax5c20V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12892Pol24h8V0416102UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibGm12892Pol2V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12892Taf1V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibGm12892Yy1V0416101UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescAtf2sc81188V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibH1hescAtf3V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescBcl11aPcr1xUniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibH1hescCtcfsc5916V0416102UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibH1hescEgr1V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescFosl1sc183V0416102UniPk.narrowPeak         3.880000e-02
+wgEncodeAwgTfbsHaibH1hescGabpPcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibH1hescHdac2sc6296V0416102UniPk.narrowPeak       -3.644997e-01
+wgEncodeAwgTfbsHaibH1hescJundV0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescNanogsc33759V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibH1hescNrsfV0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescP300V0416102UniPk.narrowPeak              -1.763299e-01
+wgEncodeAwgTfbsHaibH1hescPol24h8V0416102UniPk.narrowPeak            1.822550e-01
+wgEncodeAwgTfbsHaibH1hescPol2V0416102UniPk.narrowPeak              -1.342434e-01
+wgEncodeAwgTfbsHaibH1hescPou5f1sc9081V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibH1hescRad21V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibH1hescRxraV0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescSin3ak20Pcr1xUniPk.narrowPeak             -1.370834e-01
+wgEncodeAwgTfbsHaibH1hescSix5Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibH1hescSp1Pcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibH1hescSp2V0422111UniPk.narrowPeak               -6.040803e-01
+wgEncodeAwgTfbsHaibH1hescSp4v20V0422111UniPk.narrowPeak            -9.225670e-02
+wgEncodeAwgTfbsHaibH1hescSrfPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibH1hescTaf1V0416102UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibH1hescTaf7sc101167V0416102UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibH1hescTcf12Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibH1hescTead4sc101184V0422111UniPk.narrowPeak      3.705602e-01
+wgEncodeAwgTfbsHaibH1hescUsf1Pcr1xUniPk.narrowPeak                  6.834879e-02
+wgEncodeAwgTfbsHaibH1hescYy1sc281V0416102UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibHct116Pol24h8V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibHct116Yy1sc281V0416101UniPk.narrowPeak           4.886845e-02
+wgEncodeAwgTfbsHaibHct116Zbtb33V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibHelas3GabpPcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHelas3NrsfPcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHelas3Pol2Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHelas3Taf1Pcr1xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibHepg2Atf3V0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibHepg2Bhlhe40V0416101UniPk.narrowPeak             3.118360e-01
+wgEncodeAwgTfbsHaibHepg2Cebpbsc150V0416101UniPk.narrowPeak          1.445809e-01
+wgEncodeAwgTfbsHaibHepg2Cebpdsc636V0416101UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibHepg2Ctcfsc5916V0416101UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibHepg2Elf1sc631V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibHepg2Fosl2V0416101UniPk.narrowPeak              -5.431497e-01
+wgEncodeAwgTfbsHaibHepg2Foxa1sc101058V0416101UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibHepg2Foxa1sc6553V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2Foxa2sc6554V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2GabpPcr2xUniPk.narrowPeak                   1.703094e-02
+wgEncodeAwgTfbsHaibHepg2Hdac2sc6296V0416101UniPk.narrowPeak         4.556338e-01
+wgEncodeAwgTfbsHaibHepg2Hnf4asc8987V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2Hnf4gsc6558V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2JundPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Mbd4sc271530V0422111UniPk.narrowPeak       -2.732317e-01
+wgEncodeAwgTfbsHaibHepg2Mybl2sc81192V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibHepg2Nficsc81335V0422111UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibHepg2NrsfPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2NrsfV0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibHepg2P300V0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibHepg2Pol24h8V0416102UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibHepg2Pol2Pcr2xUniPk.narrowPeak                   1.180050e-01
+wgEncodeAwgTfbsHaibHepg2Rad21V0416101UniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibHepg2RxraPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Sin3ak20Pcr1xUniPk.narrowPeak               .           
+wgEncodeAwgTfbsHaibHepg2Sp1Pcr1xUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsHaibHepg2Sp2V0422111UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibHepg2SrfV0416101UniPk.narrowPeak                 1.210726e+00
+wgEncodeAwgTfbsHaibHepg2Taf1Pcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Tcf12Pcr1xUniPk.narrowPeak                  1.205566e+00
+wgEncodeAwgTfbsHaibHepg2Tead4sc101184V0422111UniPk.narrowPeak       .           
+wgEncodeAwgTfbsHaibHepg2Usf1Pcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibHepg2Yy1sc281V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibHepg2Zbtb33Pcr1xUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibHepg2Zbtb7aV0416101UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibHuvecPol24h8V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibHuvecPol2Pcr1xUniPk.narrowPeak                  -9.265224e-02
+wgEncodeAwgTfbsHaibK562Atf3V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Bcl3Pcr1xUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsHaibK562Bclaf101388Pcr1xUniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibK562Cbx3sc101004V0422111UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibK562Cebpbsc150V0422111UniPk.narrowPeak           3.008021e-01
+wgEncodeAwgTfbsHaibK562CtcfcPcr1xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibK562Ctcflsc98982V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibK562E2f6V0416102UniPk.narrowPeak                 3.517461e-01
+wgEncodeAwgTfbsHaibK562Egr1V0416101UniPk.narrowPeak                 1.444445e-01
+wgEncodeAwgTfbsHaibK562Elf1sc631V0416102UniPk.narrowPeak            2.793390e-02
+wgEncodeAwgTfbsHaibK562Ets1V0416101UniPk.narrowPeak                -1.944254e-01
+wgEncodeAwgTfbsHaibK562Fosl1sc183V0416101UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibK562GabpV0416101UniPk.narrowPeak                 4.936825e-01
+wgEncodeAwgTfbsHaibK562Gata2sc267Pcr1xUniPk.narrowPeak              2.609723e-01
+wgEncodeAwgTfbsHaibK562Hdac2sc6296V0416102UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibK562MaxV0416102UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibK562Mef2aV0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibK562Nr2f2sc271940V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562NrsfV0416102UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Pmlsc71910V0422111UniPk.narrowPeak           .           
+wgEncodeAwgTfbsHaibK562Pol24h8V0416101UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibK562Pol2V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Pu1Pcr1xUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsHaibK562Rad21V0416102UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibK562Sin3ak20V0416101UniPk.narrowPeak             4.298728e-01
+wgEncodeAwgTfbsHaibK562Six5Pcr1xUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsHaibK562Sp1Pcr1xUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsHaibK562Sp2sc643V0416102UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibK562SrfV0416101UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibK562Stat5asc74442V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562Taf1V0416101UniPk.narrowPeak                 1.149157e-01
+wgEncodeAwgTfbsHaibK562Taf7sc101167V0416101UniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibK562Tead4sc101184V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562Thap1sc98174V0416101UniPk.narrowPeak        -5.029056e-01
+wgEncodeAwgTfbsHaibK562Trim28sc81411V0422111UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibK562Usf1V0416101UniPk.narrowPeak                 .           
+wgEncodeAwgTfbsHaibK562Yy1V0416101UniPk.narrowPeak                  7.297541e-02
+wgEncodeAwgTfbsHaibK562Yy1V0416102UniPk.narrowPeak                 -2.839340e-01
+wgEncodeAwgTfbsHaibK562Zbtb33Pcr1xUniPk.narrowPeak                  6.328863e-01
+wgEncodeAwgTfbsHaibK562Zbtb7asc34508V0416101UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibPanc1NrsfPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibPanc1Pol24h8V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibPanc1Sin3ak20V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibPfsk1Foxp2Pcr2xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibPfsk1NrsfPcr2xUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsHaibPfsk1Sin3ak20V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibPfsk1Taf1V0416101UniPk.narrowPeak                .           
+wgEncodeAwgTfbsHaibSknmcFoxp2Pcr2xUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsHaibSknmcPol24h8V0416101UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibSknshNrsfPcr2xUniPk.narrowPeak                  -1.428228e-01
+wgEncodeAwgTfbsHaibSknshNrsfV0416101UniPk.narrowPeak               -2.671530e-01
+wgEncodeAwgTfbsHaibSknshPol24h8V0416101UniPk.narrowPeak            -7.001484e-01
+wgEncodeAwgTfbsHaibSknshraCtcfV0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibSknshraP300V0416102UniPk.narrowPeak              .           
+wgEncodeAwgTfbsHaibSknshraRad21V0416102UniPk.narrowPeak             .           
+wgEncodeAwgTfbsHaibSknshraUsf1sc8983V0416102UniPk.narrowPeak        .           
+wgEncodeAwgTfbsHaibSknshraYy1sc281V0416102UniPk.narrowPeak          .           
+wgEncodeAwgTfbsHaibSknshSin3ak20V0416101UniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibSknshTaf1V0416101UniPk.narrowPeak                1.422510e-01
+wgEncodeAwgTfbsHaibT47dCtcfsc5916V0416102Dm002p1hUniPk.narrowPeak   .           
+wgEncodeAwgTfbsHaibT47dEraaV0416102Bpa1hUniPk.narrowPeak            .           
+wgEncodeAwgTfbsHaibT47dEralphaaPcr2xGen1hUniPk.narrowPeak          -3.916446e-02
+wgEncodeAwgTfbsHaibT47dEralphaaV0416102Est10nm1hUniPk.narrowPeak   -4.433942e-04
+wgEncodeAwgTfbsHaibT47dFoxa1sc6553V0416102Dm002p1hUniPk.narrowPeak -1.178560e-01
+wgEncodeAwgTfbsHaibT47dGata3sc268V0416102Dm002p1hUniPk.narrowPeak   .           
+wgEncodeAwgTfbsHaibT47dP300V0416102Dm002p1hUniPk.narrowPeak         .           
+wgEncodeAwgTfbsHaibU87NrsfPcr2xUniPk.narrowPeak                    -3.905026e-01
+wgEncodeAwgTfbsHaibU87Pol24h8V0416101UniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhA549Bhlhe40IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhA549CebpbIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhA549MaxIggrabUniPk.narrowPeak                    2.269669e-01
+wgEncodeAwgTfbsSydhA549Pol2s2IggrabUniPk.narrowPeak                 2.801784e-01
+wgEncodeAwgTfbsSydhA549Rad21IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhGm08714Znf274UcdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhGm10847NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm10847Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Bhlhe40cIggmusUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878Brca1a300IggmusUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhGm12878CfosUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878Chd1a301218aIggmusUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhGm12878Chd2ab68301IggmusUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhGm12878Corestsc30189IggmusUniPk.narrowPeak       .           
+wgEncodeAwgTfbsSydhGm12878Ctcfsc15914c20UniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878E2f4IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Ebf1sc137065UniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhGm12878Elk112771IggmusUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhGm12878Ikzf1iknuclaUniPk.narrowPeak              3.498454e-01
+wgEncodeAwgTfbsSydhGm12878JundUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878MaxIggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhGm12878Mazab85725IggmusUniPk.narrowPeak          3.107905e-01
+wgEncodeAwgTfbsSydhGm12878Mxi1IggmusUniPk.narrowPeak               -3.443874e-01
+wgEncodeAwgTfbsSydhGm12878Nfe2sc22827UniPk.narrowPeak               4.987931e-01
+wgEncodeAwgTfbsSydhGm12878NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878NfyaIggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878NfybIggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Nrf1IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878P300bUniPk.narrowPeak                     3.291999e-01
+wgEncodeAwgTfbsSydhGm12878P300IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Pol2s2IggmusUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhGm12878Pol2UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878Pol3UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12878Rad21IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhGm12878Rfx5200401194IggmusUniPk.narrowPeak      -5.130429e-02
+wgEncodeAwgTfbsSydhGm12878Sin3anb6001263IggmusUniPk.narrowPeak      .           
+wgEncodeAwgTfbsSydhGm12878Smc3ab9263IggmusUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhGm12878Stat1UniPk.narrowPeak                    -9.399083e-02
+wgEncodeAwgTfbsSydhGm12878Stat3IggmusUniPk.narrowPeak               6.110295e-02
+wgEncodeAwgTfbsSydhGm12878Tblr1ab24550IggmusUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhGm12878TbpIggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhGm12878Tr4UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhGm12878Usf2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878WhipIggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm12878Yy1UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhGm12878Znf143166181apUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12878Znf274UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhGm12878Zzz3UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhGm12891NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12891Pol2IggmusUniPk.narrowPeak               -3.963814e-01
+wgEncodeAwgTfbsSydhGm12892NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm12892Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm15510NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm15510Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm18505NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm18505Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm18526NfkbTnfaIggrabUniPk.narrowPeak           -2.206737e-01
+wgEncodeAwgTfbsSydhGm18526Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm18951NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm18951Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm19099NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm19099Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhGm19193NfkbTnfaIggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhGm19193Pol2IggmusUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescBach1sc14700IggrabUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhH1hescBrca1IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescCebpbIggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescChd1a301218aIggrabUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhH1hescChd2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescCjunIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescCmycIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescCtbp2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhH1hescGtf2f1IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhH1hescJundIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescMafkIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescMaxUcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhH1hescMxi1IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescNrf1IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescRad21IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhH1hescRfx5200401194IggrabUniPk.narrowPeak        6.269698e-01
+wgEncodeAwgTfbsSydhH1hescSin3anb6001263IggrabUniPk.narrowPeak       .           
+wgEncodeAwgTfbsSydhH1hescSuz12UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhH1hescTbpIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhH1hescUsf2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhH1hescZnf143IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHct116Pol2UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHct116Tcf7l2UcdUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHek293Elk4UcdUniPk.narrowPeak                   -7.029470e-01
+wgEncodeAwgTfbsSydhHek293Kap1UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHek293Pol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHek293Tcf7l2UcdUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHek293tZnf263UcdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3Ap2alphaUniPk.narrowPeak                   2.109812e-01
+wgEncodeAwgTfbsSydhHelas3Ap2gammaUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHelas3Baf155IggmusUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Baf170IggmusUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Bdp1UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Brca1a300IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHelas3Brf1UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Brf2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Brg1IggmusUniPk.narrowPeak                -4.283615e-01
+wgEncodeAwgTfbsSydhHelas3CebpbIggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3CfosUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3Chd2IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3CjunIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3CmycUniPk.narrowPeak                      -1.070112e-02
+wgEncodeAwgTfbsSydhHelas3Corestsc30189IggrabUniPk.narrowPeak        3.080162e-01
+wgEncodeAwgTfbsSydhHelas3E2f1UniPk.narrowPeak                      -1.694731e-01
+wgEncodeAwgTfbsSydhHelas3E2f4UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHelas3E2f6UniPk.narrowPeak                       3.758232e-02
+wgEncodeAwgTfbsSydhHelas3Elk112771IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHelas3Elk4UcdUniPk.narrowPeak                   -1.114490e-02
+wgEncodeAwgTfbsSydhHelas3Gtf2f1ab28179IggrabUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhHelas3Hae2f1UniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhHelas3Ini1IggmusUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3Irf3IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3JundIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3MafkIggrabUniPk.narrowPeak                -6.641539e-01
+wgEncodeAwgTfbsSydhHelas3MaxIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHelas3Mazab85725IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHelas3Mxi1af4185IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHelas3NfyaIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3NfybIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHelas3Nrf1IggmusUniPk.narrowPeak                 2.698067e-01
+wgEncodeAwgTfbsSydhHelas3P300sc584sc584IggrabUniPk.narrowPeak       .           
+wgEncodeAwgTfbsSydhHelas3Pol2s2IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Pol2UniPk.narrowPeak                      -1.817046e-02
+wgEncodeAwgTfbsSydhHelas3Prdm19115IggrabUniPk.narrowPeak            8.011078e-01
+wgEncodeAwgTfbsSydhHelas3Rad21IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3Rfx5200401194IggrabUniPk.narrowPeak       -1.225652e-01
+wgEncodeAwgTfbsSydhHelas3Rpc155UniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhHelas3Smc3ab9263IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHelas3Spt20UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhHelas3Stat1Ifng30UniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3Stat3IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHelas3TbpIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHelas3Tcf7l2c9b92565UcdUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhHelas3Tcf7l2UcdUniPk.narrowPeak                 -2.702651e-01
+wgEncodeAwgTfbsSydhHelas3Tf3c110UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHelas3Tr4UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhHelas3Usf2IggmusUniPk.narrowPeak                 4.368129e-01
+wgEncodeAwgTfbsSydhHelas3Zkscan1hpa006672IggrabUniPk.narrowPeak     .           
+wgEncodeAwgTfbsSydhHelas3Znf143IggrabUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhHelas3Znf274UcdUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHelas3Zzz3UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhHepg2Arid3anb100279IggrabUniPk.narrowPeak        .           
+wgEncodeAwgTfbsSydhHepg2Bhlhe40cIggrabUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhHepg2Brca1a300IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhHepg2CebpbForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2CebpbIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Chd2ab68301IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHepg2CjunIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Corestsc30189IggrabUniPk.narrowPeak        -1.844353e-01
+wgEncodeAwgTfbsSydhHepg2ErraForsklnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Grp20ForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Hnf4aForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Hsf1ForsklnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Irf3IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2JundIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Maffm8194IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhHepg2Mafkab50322IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhHepg2Mafksc477IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhHepg2MaxIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHepg2Mazab85725IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHepg2Mxi1UniPk.narrowPeak                        2.345731e-01
+wgEncodeAwgTfbsSydhHepg2Nrf1IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2P300sc582IggrabUniPk.narrowPeak            -9.087095e-01
+wgEncodeAwgTfbsSydhHepg2Pgc1aForsklnUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Pol2ForsklnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Pol2IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Pol2s2IggrabUniPk.narrowPeak                .           
+wgEncodeAwgTfbsSydhHepg2Rad21IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2Rfx5200401194IggrabUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhHepg2Smc3ab9263IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhHepg2Srebp1InslnUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhHepg2TbpIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHepg2Tcf7l2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHepg2Tr4UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhHepg2Usf2IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhHepg2Znf274UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhHuvecCfosUcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhHuvecCjunUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhHuvecGata2UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhHuvecMaxUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhHuvecPol2UniPk.narrowPeak                        6.449998e-02
+wgEncodeAwgTfbsSydhImr90CebpbIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhImr90CtcfbIggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhImr90MafkIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhImr90Pol2IggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhImr90Rad21IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhK562Arid3asc8821IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhK562Atf106325UniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhK562Atf3UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Bach1sc14700IggrabUniPk.narrowPeak           5.584837e-02
+wgEncodeAwgTfbsSydhK562Bdp1UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Bhlhe40nb100IggrabUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhK562Brf1UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Brf2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Brg1IggmusUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Ccnt2UniPk.narrowPeak                        3.866242e-01
+wgEncodeAwgTfbsSydhK562CebpbIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562CfosUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Chd2ab68301IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhK562CjunIfna30UniPk.narrowPeak                   1.931114e-01
+wgEncodeAwgTfbsSydhK562CjunIfna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CjunIfng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CjunIfng6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CjunUniPk.narrowPeak                        -3.046528e-01
+wgEncodeAwgTfbsSydhK562CmycIfna30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIfna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIfng6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562CmycUniPk.narrowPeak                        -6.769846e-02
+wgEncodeAwgTfbsSydhK562Corestab24166IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562Corestsc30189IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562CtcfbIggrabUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562E2f4UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562E2f6UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562Elk112771IggrabUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhK562Gata1UcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhK562Gata2UcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhK562Gtf2bUniPk.narrowPeak                        1.030764e+00
+wgEncodeAwgTfbsSydhK562Gtf2f1ab28179IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562Hmgn3UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Ini1IggmusUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifna30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Irf1Ifng6hUniPk.narrowPeak                  -2.815266e-01
+wgEncodeAwgTfbsSydhK562JundIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Kap1UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562MaffIggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Mafkab50322IggrabUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhK562MaxIggrabUniPk.narrowPeak                    5.090519e-02
+wgEncodeAwgTfbsSydhK562Mazab85725IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhK562Mxi1af4185IggrabUniPk.narrowPeak             5.942391e-02
+wgEncodeAwgTfbsSydhK562NelfeUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Nfe2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562NfyaUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562NfybUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Nrf1IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562P300IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifna6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifng30UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2Ifng6hUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Pol2IggmusUniPk.narrowPeak                   1.757921e-02
+wgEncodeAwgTfbsSydhK562Pol2s2IggrabUniPk.narrowPeak                -1.069814e-01
+wgEncodeAwgTfbsSydhK562Pol2s2UniPk.narrowPeak                       6.916083e-01
+wgEncodeAwgTfbsSydhK562Pol2UniPk.narrowPeak                         2.175028e-02
+wgEncodeAwgTfbsSydhK562Pol3UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsSydhK562Rad21UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Rfx5IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Rpc155UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhK562Setdb1MnasedUcdUniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhK562Setdb1UcdUniPk.narrowPeak                   -7.705236e-01
+wgEncodeAwgTfbsSydhK562Sirt6UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsSydhK562Smc3ab9263IggrabUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhK562Stat1Ifna30UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifna6hUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng30UniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhK562Stat1Ifng6hUniPk.narrowPeak                  6.922999e-01
+wgEncodeAwgTfbsSydhK562Stat2Ifna30UniPk.narrowPeak                 -6.579952e-01
+wgEncodeAwgTfbsSydhK562Stat2Ifna6hUniPk.narrowPeak                 -9.799842e-01
+wgEncodeAwgTfbsSydhK562Tal1sc12984IggmusUniPk.narrowPeak            5.485434e-01
+wgEncodeAwgTfbsSydhK562Tblr1ab24550IggrabUniPk.narrowPeak           2.461582e-01
+wgEncodeAwgTfbsSydhK562Tblr1nb600270IggrabUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhK562TbpIggmusUniPk.narrowPeak                    2.509612e-01
+wgEncodeAwgTfbsSydhK562Tf3c110UniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhK562Tr4UcdUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhK562Ubfsc13125IggmusUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhK562Ubtfsab1404509IggmusUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhK562Usf2IggrabUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhK562Yy1UcdUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsSydhK562Znf143IggrabUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhK562Znf263UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhK562Znf274m01UcdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhK562Znf274UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhMcf10aesCfosEtoh01HvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam112hHvdUniPk.narrowPeak           .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTam14hHvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesCfosTamHvdUniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhMcf10aesCmycEtoh01HvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesCmycTam14hHvdUniPk.narrowPeak            .           
+wgEncodeAwgTfbsSydhMcf10aesE2f4TamHvdUniPk.narrowPeak              -3.231959e-02
+wgEncodeAwgTfbsSydhMcf10aesPol2Etoh01UniPk.narrowPeak               .           
+wgEncodeAwgTfbsSydhMcf10aesPol2TamUniPk.narrowPeak                  .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01bUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01cUniPk.narrowPeak             .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Etoh01UniPk.narrowPeak              .           
+wgEncodeAwgTfbsSydhMcf10aesStat3Tam112hHvdUniPk.narrowPeak          .           
+wgEncodeAwgTfbsSydhMcf10aesStat3TamUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsSydhMcf7Gata3sc269UcdUniPk.narrowPeak               -3.823120e-04
+wgEncodeAwgTfbsSydhMcf7Gata3UcdUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsSydhMcf7Hae2f1UcdUniPk.narrowPeak                   -2.312617e-02
+wgEncodeAwgTfbsSydhMcf7Tcf7l2UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsSydhMcf7Znf217UcdUniPk.narrowPeak                   -2.185903e-01
+wgEncodeAwgTfbsSydhNb4CmycUniPk.narrowPeak                          5.442769e-01
+wgEncodeAwgTfbsSydhNb4MaxUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsSydhNb4Pol2UniPk.narrowPeak                          .           
+wgEncodeAwgTfbsSydhNt2d1Suz12UcdUniPk.narrowPeak                    5.064337e-01
+wgEncodeAwgTfbsSydhNt2d1Yy1UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhNt2d1Znf274UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhPanc1Tcf7l2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhPbdefetalGata1UcdUniPk.narrowPeak                6.863140e-01
+wgEncodeAwgTfbsSydhPbdeGata1UcdUniPk.narrowPeak                     9.287567e-01
+wgEncodeAwgTfbsSydhPbdePol2UcdUniPk.narrowPeak                      6.249250e-01
+wgEncodeAwgTfbsSydhRajiPol2UcdUniPk.narrowPeak                      .           
+wgEncodeAwgTfbsSydhShsy5yGata2UcdUniPk.narrowPeak                   .           
+wgEncodeAwgTfbsSydhShsy5yGata3sc269sc269UcdUniPk.narrowPeak         .           
+wgEncodeAwgTfbsSydhU2osKap1UcdUniPk.narrowPeak                     -6.290668e-01
+wgEncodeAwgTfbsSydhU2osSetdb1UcdUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsUchicagoK562EfosUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsUchicagoK562Egata2UniPk.narrowPeak                   .           
+wgEncodeAwgTfbsUchicagoK562Ehdac8UniPk.narrowPeak                   2.464242e-01
+wgEncodeAwgTfbsUchicagoK562EjunbUniPk.narrowPeak                   -3.704613e-01
+wgEncodeAwgTfbsUchicagoK562EjundUniPk.narrowPeak                    .           
+wgEncodeAwgTfbsUtaA549CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaA549Pol2UniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaFibroblCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGlioblaCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGlioblaPol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12878CmycUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12878CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12878Pol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12891CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm12892CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm19238CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm19239CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaGm19240CtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaH1hescCmycUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaH1hescCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaH1hescPol2UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHelas3CmycUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHelas3CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHelas3Pol2UniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUtaHepg2CmycUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHepg2CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHepg2Pol2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHuvecCmycUniPk.narrowPeak                        -1.016654e+00
+wgEncodeAwgTfbsUtaHuvecCtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaHuvecPol2UniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUtaK562CmycUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaK562CtcfUniPk.narrowPeak                         -6.938273e-02
+wgEncodeAwgTfbsUtaK562Pol2UniPk.narrowPeak                          1.889386e-01
+wgEncodeAwgTfbsUtaMcf7CmycEstroUniPk.narrowPeak                    -2.911356e-02
+wgEncodeAwgTfbsUtaMcf7CmycSerumstimUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7CmycSerumstvdUniPk.narrowPeak                -1.881427e-01
+wgEncodeAwgTfbsUtaMcf7CmycVehUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaMcf7CtcfEstroUniPk.narrowPeak                     .           
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstimUniPk.narrowPeak                -2.491163e-01
+wgEncodeAwgTfbsUtaMcf7CtcfSerumstvdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaMcf7CtcfVehUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstimUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2SerumstvdUniPk.narrowPeak                 .           
+wgEncodeAwgTfbsUtaMcf7Pol2UniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaNhekCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUtaProgfibCtcfUniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUtaProgfibPol2UniPk.narrowPeak                       .           
+wgEncodeAwgTfbsUwA549CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwAg04449CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg04450CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg09309CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg09319CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAg10803CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwAoafCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwBe2cCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwBjCtcfUniPk.narrowPeak                             .           
+wgEncodeAwgTfbsUwCaco2CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwGm06990CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12801CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12864CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12865CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12872CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12873CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12874CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12875CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwGm12878CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwHacCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHaspCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHbmecCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHcfaaCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHcmCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHcpeCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHct116CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHeeCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHek293CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHelas3CtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHepg2CtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHffCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHffmycCtcfUniPk.narrowPeak                         .           
+wgEncodeAwgTfbsUwHl60CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHmecCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHmfCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHpafCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHpfCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHreCtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwHrpeCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwHuvecCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwHvmfCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwK562CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwMcf7CtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwNb4CtcfUniPk.narrowPeak                            .           
+wgEncodeAwgTfbsUwNhdfneoCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwNhekCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwNhlfCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwRptecCtcfUniPk.narrowPeak                          .           
+wgEncodeAwgTfbsUwSaecCtcfUniPk.narrowPeak                           .           
+wgEncodeAwgTfbsUwSknshraCtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwWerirb1CtcfUniPk.narrowPeak                        .           
+wgEncodeAwgTfbsUwWi38CtcfUniPk.narrowPeak                           .           
+wgEncodeBroadHistoneGm12878CtcfStdPk.broadPeak                      .           
+wgEncodeBroadHistoneGm12878H2azStdPk.broadPeak                      .           
+wgEncodeBroadHistoneGm12878H3k04me1StdPkV2.broadPeak                2.325532e-02
+wgEncodeBroadHistoneGm12878H3k04me3StdPkV2.broadPeak                .           
+wgEncodeBroadHistoneGm12878H3k27acStdPk.broadPeak                   1.593014e-01
+wgEncodeBroadHistoneGm12878H3k27me3StdPk.broadPeak                  .           
+wgEncodeBroadHistoneGm12878H3k27me3StdPkV2.broadPeak                .           
+wgEncodeBroadHistoneGm12878H3k36me3StdPk.broadPeak                  .           
+wgEncodeBroadHistoneGm12878H3k4me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneGm12878H3k4me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneGm12878H3k79me2StdPk.broadPeak                  .           
+wgEncodeBroadHistoneGm12878H3k9acStdPk.broadPeak                    4.566967e-02
+wgEncodeBroadHistoneGm12878H3k9me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneGm12878H4k20me1StdPk.broadPeak                  2.539938e-02
+wgEncodeBroadHistoneH1hescChd1a301218aStdPk.broadPeak               .           
+wgEncodeBroadHistoneH1hescCtcfStdPk.broadPeak                       9.915872e-03
+wgEncodeBroadHistoneH1hescH2azStdPk.broadPeak                       .           
+wgEncodeBroadHistoneH1hescH3k09me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescH3k27acStdPk.broadPeak                    .           
+wgEncodeBroadHistoneH1hescH3k27me3StdPk.broadPeak                   1.002639e-01
+wgEncodeBroadHistoneH1hescH3k36me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescH3k4me1StdPk.broadPeak                    .           
+wgEncodeBroadHistoneH1hescH3k4me2StdPk.broadPeak                   -1.581777e-01
+wgEncodeBroadHistoneH1hescH3k4me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneH1hescH3k79me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescH3k9acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneH1hescH4k20me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneH1hescJarid1aab26049StdPk.broadPeak             3.398307e-02
+wgEncodeBroadHistoneH1hescRbbp5a300109aStdPk.broadPeak              .           
+wgEncodeBroadHistoneHelas3CtcfStdPk.broadPeak                       .           
+wgEncodeBroadHistoneHelas3H3k04me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3H3k27acStdPk.broadPeak                    .           
+wgEncodeBroadHistoneHelas3H3k27me3StdPk.broadPeak                  -1.440038e-01
+wgEncodeBroadHistoneHelas3H3k36me3StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3H3k4me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHelas3H3k4me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHelas3H3k79me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3H3k9acStdPk.broadPeak                     1.312791e-01
+wgEncodeBroadHistoneHelas3H4k20me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneHelas3Pol2bStdPk.broadPeak                      2.643632e-02
+wgEncodeBroadHistoneHepg2CtcfStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHepg2H2azStdPk.broadPeak                       -5.722019e-02
+wgEncodeBroadHistoneHepg2H3k04me1StdPk.broadPeak                    3.499902e-01
+wgEncodeBroadHistoneHepg2H3k27acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneHepg2H3k27me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHepg2H3k36me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHepg2H3k4me2StdPk.broadPeak                     4.252409e-02
+wgEncodeBroadHistoneHepg2H3k4me3StdPk.broadPeak                     3.925485e-02
+wgEncodeBroadHistoneHepg2H3k79me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHepg2H3k9acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHepg2H4k20me1StdPk.broadPeak                   -4.920678e-02
+wgEncodeBroadHistoneHmecCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneHmecH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHmecH3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHmecH3k36me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHmecH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHmecH3k4me2StdPk.broadPeak                      1.870086e-01
+wgEncodeBroadHistoneHmecH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHmecH3k9acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneHmecH4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneHsmmH2azStdPk.broadPeak                         .           
+wgEncodeBroadHistoneHsmmH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmH3k36me3StdPk.broadPeak                    -3.891315e-02
+wgEncodeBroadHistoneHsmmH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmH3k79me2StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmH3k9acStdPk.broadPeak                      -2.069426e-02
+wgEncodeBroadHistoneHsmmH3k9me3StdPk.broadPeak                     -1.284454e-01
+wgEncodeBroadHistoneHsmmH4k20me1StdPk.broadPeak                     7.107116e-02
+wgEncodeBroadHistoneHsmmtCtcfStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHsmmtH2azStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHsmmtH3k27acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmtH3k36me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHsmmtH3k4me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmtH3k4me2StdPk.broadPeak                    -3.343734e-02
+wgEncodeBroadHistoneHsmmtH3k4me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHsmmtH3k79me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHsmmtH3k9acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHsmmtH4k20me1StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHuvecCtcfStdPk.broadPeak                        .           
+wgEncodeBroadHistoneHuvecH3k27acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k27me3StdPk.broadPeak                    1.219342e-01
+wgEncodeBroadHistoneHuvecH3k36me3StdPk.broadPeak                    4.546553e-02
+wgEncodeBroadHistoneHuvecH3k4me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k4me2StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k4me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH3k9acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneHuvecH3k9me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneHuvecH4k20me1StdPk.broadPeak                    .           
+wgEncodeBroadHistoneHuvecPol2bStdPk.broadPeak                       .           
+wgEncodeBroadHistoneK562Chd1a301218aStdPk.broadPeak                 .           
+wgEncodeBroadHistoneK562CtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneK562Ezh239875StdPk.broadPeak                   -1.511132e-02
+wgEncodeBroadHistoneK562H2azStdPk.broadPeak                         .           
+wgEncodeBroadHistoneK562H3k27acStdPk.broadPeak                      1.873258e-01
+wgEncodeBroadHistoneK562H3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneK562H3k36me3StdPk.broadPeak                     2.912572e-01
+wgEncodeBroadHistoneK562H3k4me1StdPk.broadPeak                      3.351436e-01
+wgEncodeBroadHistoneK562H3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H3k79me2StdPk.broadPeak                     1.354754e-02
+wgEncodeBroadHistoneK562H3k9acStdPk.broadPeak                       3.035253e-02
+wgEncodeBroadHistoneK562H3k9me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H3k9me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneK562H4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneK562Hdac1sc6298StdPk.broadPeak                  3.466602e-02
+wgEncodeBroadHistoneK562Hdac2a300705aStdPk.broadPeak                1.900336e-01
+wgEncodeBroadHistoneK562P300StdPk.broadPeak                         .           
+wgEncodeBroadHistoneK562Phf8a301772aStdPk.broadPeak                 .           
+wgEncodeBroadHistoneK562Plu1StdPk.broadPeak                         8.607772e-02
+wgEncodeBroadHistoneK562Pol2bStdPk.broadPeak                        2.241801e-01
+wgEncodeBroadHistoneK562Rbbp5a300109aStdPk.broadPeak                .           
+wgEncodeBroadHistoneK562Sap3039731StdPk.broadPeak                   .           
+wgEncodeBroadHistoneNhaCtcfStdPk.broadPeak                         -1.902786e-01
+wgEncodeBroadHistoneNhaH3k27acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhaH3k27me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhaH3k36me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhaH3k4me1StdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhaH3k4me3StdPk.broadPeak                      -3.341371e-01
+wgEncodeBroadHistoneNhdfadCtcfStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhdfadH3k27acStdPk.broadPeak                    .           
+wgEncodeBroadHistoneNhdfadH3k27me3StdPk.broadPeak                   1.726405e-02
+wgEncodeBroadHistoneNhdfadH3k36me3StdPk.broadPeak                  -1.385076e-02
+wgEncodeBroadHistoneNhdfadH3k4me2StdPk.broadPeak                    .           
+wgEncodeBroadHistoneNhdfadH3k4me3StdPk.broadPeak                    .           
+wgEncodeBroadHistoneNhdfadH3k9acStdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneNhekH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k27me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekH3k36me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH3k9acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhekH3k9me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhekH4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhekPol2bStdPk.broadPeak                        .           
+wgEncodeBroadHistoneNhlfCtcfStdPk.broadPeak                         .           
+wgEncodeBroadHistoneNhlfH3k27acStdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k27me3StdPk.broadPeak                     1.314424e-01
+wgEncodeBroadHistoneNhlfH3k36me3StdPk.broadPeak                     .           
+wgEncodeBroadHistoneNhlfH3k4me1StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k4me2StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k4me3StdPk.broadPeak                      .           
+wgEncodeBroadHistoneNhlfH3k9acStdPk.broadPeak                       .           
+wgEncodeBroadHistoneNhlfH4k20me1StdPk.broadPeak                     .           
+wgEncodeBroadHistoneOsteoblCtcfStdPk.broadPeak                      .           
+wgEncodeBroadHistoneOsteoblH2azStdPk.broadPeak                     -5.769930e-03
+wgEncodeBroadHistoneOsteoblH3k27acStdPk.broadPeak                   .           
+wgEncodeBroadHistoneOsteoblH3k36me3StdPk.broadPeak                 -5.617797e-02
+wgEncodeBroadHistoneOsteoblH3k4me1StdPk.broadPeak                   .           
+wgEncodeBroadHistoneOsteoblH3k4me2StdPk.broadPeak                   .           
+wgEncodeBroadHistoneOsteoblH3k9me3StdPk.broadPeak                  -5.047744e-01
+wgEncodeBroadHmmGm12878HMM.bed                                      8.453971e-03
+wgEncodeBroadHmmH1hescHMM.bed                                       1.004430e-14
+wgEncodeBroadHmmHepg2HMM.bed                                        1.068542e-16
+wgEncodeBroadHmmHmecHMM.bed                                         .           
+wgEncodeBroadHmmHsmmHMM.bed                                         .           
+wgEncodeBroadHmmHuvecHMM.bed                                        .           
+wgEncodeBroadHmmK562HMM.bed                                         .           
+wgEncodeBroadHmmNhekHMM.bed                                         .           
+wgEncodeBroadHmmNhlfHMM.bed                                         .           
+AUC saved as 191108.AstleRedCell.865.factors.NbrMAFgt10.run1.AUCplot.pdf
+null device 
+          1 
